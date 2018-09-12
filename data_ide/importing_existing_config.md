@@ -18,8 +18,8 @@ You must have a workflow configuration file stored locally. For information abou
 
 3. Click **OK**.
 4. Edit the settings that are loaded from the configuration file.
-  - If the imported configure file defines a periodic workflow, see [Creating a periodic synchronization workflow from scratch](creating_workflow_periodic).
-  - If the imported configure file defines an one-time workflow, see [Creating an one-time synchronization workflow from scratch](creating_workflow_onetime).
+  - If the imported configure file defines a periodic workflow, see [Creating a periodic workflow from scratch](creating_workflow_periodic).
+  - If the imported configure file defines an one-time workflow, see [Creating a manual workflow from scratch](creating_workflow_onetime).
 
 ## What to do next
 

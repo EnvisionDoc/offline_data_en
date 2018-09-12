@@ -1,4 +1,4 @@
-# Creating an one-time workflow
+# Creating an one-time workflow from scratch
 
 How to create an one-time workflow that is run when you trigger manually.
 
@@ -14,7 +14,7 @@ Ensure that you've registered the codes and scripts to run against the data as r
 2. In the **New Workflow** window, provide the following settings and click **OK**.
    - Mode: choose whether to create a workflow from scratch or by importing a configuration file.
    - Name: Enter the name of workflow.
-   - Type: Select **One-time**.
+   - Type: Select **Manual**.
    - Select Dir: select the directory to store the workflow.
 
 ## Step 2: (Optional) Add references
@@ -42,7 +42,7 @@ To add a task node, do the following steps:
 7. When parameters are used in the task, click **Parameter Settings** from the right edge to specify parameter values. You can specify constants, system variables, or custom variables for a parameter. For more information, see [Setting parameters](setting_parameters).
 8. Click **Save** and click **Back to Workflow Panel**.
 
-Repeat 1 to 6 to add more task nodes as you need.
+Repeat 1 to 8 to add more task nodes as you need.
 
 ## Step 4: Add relations
 

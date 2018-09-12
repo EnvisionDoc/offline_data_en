@@ -1,4 +1,4 @@
-# Creating a periodic synchronization workflow
+# Creating a periodic synchronization workflow from scratch
 
 How to create a periodic data integration task from scratch.
 
@@ -100,7 +100,7 @@ When parameters are used when you configure the data source and target, specify 
 
    You parameter setting will cause EnOS to synchronize all data from the directories as specified by the parameter values.
 
-   You can assign system variables as parameter values. For more information, see [Supported system variables](system_variables).
+   You can assign system variables as parameter values. For more information, see [Supported system variables](../data_ide/system_variables).
 
 ## Step 7: Configure concurrency
 Select the number of concurrent connections to establish and click **Next**.
