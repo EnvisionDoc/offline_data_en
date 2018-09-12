@@ -14,7 +14,7 @@ You must have a workflow configuration file stored locally. For information abou
    - Upload File: In your local file system, browse to and select the configuration file.
    - Name: Enter the name of workflow.
    - Type: Select whether to create a periodic workflow that is run automatically based on scheduling parameters, or an one-time workflow that is run only when manually triggered.
-   - Description: Provide a descriptive information about the workflow.
+   - Description: Provide descriptive information about the workflow.
    - Select Directory: Select the directy to save the workflow.
 
 3. Click **OK**.
@@ -24,4 +24,8 @@ You must have a workflow configuration file stored locally. For information abou
 
 ## What to do next
 
-After the data is synchronized from the data source, you can schedule other processing workflows against the data. For more information, see [Data IDE](../dataide/dataide_overview).
+Click **Pre-run** to trigger the workflow.
+
+After a workflow is run, an instance is generated. You can then trace the details about the instance through the task monitor. For more information, see [Task monitor](../task_monitor/index).
+
+After the data is synchronized from the data source, you can schedule other processing tasks against the data. For more information, see [Data IDE](../data_ide/dataide_overview).

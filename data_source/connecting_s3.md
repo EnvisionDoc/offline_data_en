@@ -31,14 +31,9 @@ To retrieve data from an external Amazon S3 database for analysis, Create a data
 
 
 ## Results
-<!---
-可选，描述完成procedure以后的正确结果，以及如何verify结果正确。简单task可省略该部分
--->
 
 After the connection is created, the data source item is shown in the **Data Source** table.
 
 ## What to do next
-<!---
-可选，若该操作结束通常伴有下一操作，则简要描述后续操作，并提供链接到后续操作对应的task topic
--->
+
 When the connection is successfully established, EnOS retrieves the data from the external data source to the EnOS internal Hive database. You must create the Hive table to store the retrived data. For more information, see [Creating Hive table](../data_explorer/creating_hivetable).
