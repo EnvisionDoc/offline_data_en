@@ -13,195 +13,198 @@ Before you start to use the service-related variables, note the following key co
 
 The following table explains the system variables by using `2017-05-27 13:50:00` as the example triggering time.
 
-<table>
-<thead>
-<tr>
-<th>Variable</th>
-<th>Description</th>
-<th>Format</th>
-<th>Business Date</th>
-<th>Variable Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>${last_week8}</td>
-<td>- Using triggering time as the basis, indicates <strong>Last week</strong>。<br />- Using business date as the basis, indicates business date minus 6 days.</td>
-<td>YYYYMMDD</td>
-<td>2017-05-26<br /></td>
-<td>20170520</td>
-</tr>
-<tr>
-<td>${last_week10}</td>
-<td>- Using triggering time as the basis, indicates <strong>Last week</strong>。<br />- Using business date as the basis, indicates business date minus 6 days.<br /></td>
-<td>YYYY-MM-DD</td>
-<td>2017-05-26<br /></td>
-<td>2017-05-20</td>
-</tr>
-<tr>
-<td>${cal_dt}</td>
-<td>- Using triggering time as the basis, indicates <strong>yesterday</strong>。<br />- Using business date as the basis, indicates today.<br /></td>
-<td>YYYY-MM-DD</td>
-<td>2017-05-26<br /></td>
-<td>2017-05-26</td>
-</tr>
-<tr>
-<td>${cal_dt8}</td>
-<td>- Using triggering time as the basis, indicates  <strong>yesterday</strong>。<br />- Using business date as the basis, indicates today.<br /></td>
-<td>YYYYMMDD</td>
-<td>2017-05-26<br /></td>
-<td>20170526</td>
-</tr>
-<tr>
-<td>${ncal_dt}</td>
-<td>Using triggering time as the basis, indicates <strong>today</strong>。<br />Using business date as the basis, indicates today+1.<br />Format: YYYY-MM-DD</td>
-<td>YYYY-MM-DD</td>
-<td>2017-05-26<br /></td>
-<td>2017-05-27</td>
-</tr>
-<tr>
-<td>${ncal_dt8}</td>
-<td>Using triggering time as the basis, indicates  <strong>today</strong>.<br />Using business date as the basis, indicates today+1.<br />Format: YYYYMMDD</td>
-<td>YYYYMMDD</td>
-<td>2017-05-26<br /></td>
-<td>20170527</td>
-</tr>
-<tr>
-<td>${end_day_this_month8}</td>
-<td>Using business date as the basis, indicates <strong>last day of this month.</strong><br /></td>
-<td>YYYYMMDD</td>
-<td>2017-05-26<br /></td>
-<td>20170531</td>
-</tr>
-<tr>
-<td>${end_day_this_month10}</td>
-<td>Using business date as the basis, indicates <strong>last day of this month.</strong><br /></td>
-<td>YYYY-MM-DD</td>
-<td>2017-05-26<br /></td>
-<td>2017-05-31</td>
-</tr>
-<tr>
-<td>${first_day_this_month8}</td>
-<td>Using business date as the basis, indicates <strong>first day of this month</strong>。<br /></td>
-<td>YYYYMMDD</td>
-<td>2017-05-26<br /></td>
-<td>20170501</td>
-</tr>
-<tr>
-<td>${first_day_this_month10}</td>
-<td>Using business date as the basis, indicates <strong>first day of this month</strong>。<br /></td>
-<td>YYYY-MM-DD</td>
-<td>2017-05-26<br /></td>
-<td>2017-05-01</td>
-</tr>
-<tr>
-<td>${first_day_last_month8}</td>
-<td>Using business date as the basis, indicates <strong>first day of last month</strong>。<br /></td>
-<td>YYYYMMDD</td>
-<td>2017-05-26<br /></td>
-<td>20170401</td>
-</tr>
-<tr>
-<td>${first_day_last_month10}</td>
-<td>Using business date as the basis, indicates <strong>first day of last month</strong>。<br /></td>
-<td>YYYY-MM-DD</td>
-<td>2017-05-26<br /></td>
-<td>2017-04-01</td>
-</tr>
-<tr>
-<td>${last_day_last_month8}</td>
-<td>Using business date as the basis, indicates <strong>last day of last month</strong>。<br /></td>
-<td>YYYYMMDD</td>
-<td>2017-05-26<br /></td>
-<td>2017-04-30</td>
-</tr>
-<tr>
-<td>${last_day_last_month10}</td>
-<td>Using business date as the basis, indicates <strong>last day of last month</strong>。<br /></td>
-<td>YYYY-MM-DD</td>
-<td>2017-05-26<br /></td>
-<td>201704-30</td>
-</tr>
-<tr>
-<td>${monday_next_week8}</td>
-<td>Using business date as the basis, indicates <strong>next Monday</strong>。<br /></td>
-<td>YYYYMMDD</td>
-<td>2017-05-26<br /></td>
-<td>20170529</td>
-</tr>
-<tr>
-<td>${monday_next_week10}</td>
-<td>Using business date as the basis, indicates <strong>next Monday</strong>。<br /></td>
-<td>Format: YYYY-MM-DD</td>
-<td>2017-05-26<br /></td>
-<td>2017-05-29</td>
-</tr>
-<tr>
-<td>${30days_cal_dt}</td>
-<td>Using business date as the basis, indicates <strong>30 days ago</strong>。<br /></td>
-<td>Format: YYYY-MM-DD</td>
-<td>2017-05-26<br /></td>
-<td>2017-04-26</td>
-</tr>
-</tbody>
+<body>
+<table border="1" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="113" valign="top"><p align="center"><strong>Variable</strong></p ></td>
+    <td width="203" valign="top"><p align="center"><strong>Description</strong></p ></td>
+    <td valign="top"><p align="center"><strong>Format</strong></p ></td>
+    <td valign="top"><p align="center"><strong>Business Date</strong></p ></td>
+    <td valign="top"><p align="center"><strong>Variable Value</strong></p ></td>
+  </tr>
+  <tr>
+    <td width="113" valign="top"><p align="left">${last_week8}</p ></td>
+    <td width="203" valign="top"><p align="left">- Using   triggering time as the basis, indicates&nbsp;<strong>Last week</strong>。<br>
+      - Using business date as the basis, indicates business date minus 6 days.</p ></td>
+    <td valign="top"><p align="left">YYYYMMDD</p ></td>
+    <td valign="top"><p align="left">2017-05-26</p ></td>
+    <td valign="top"><p align="left">20170520</p ></td>
+  </tr>
+  <tr>
+    <td width="113" valign="top"><p align="left">${last_week10}</p ></td>
+    <td width="203" valign="top"><p align="left">- Using   triggering time as the basis, indicates&nbsp;<strong>Last week</strong>。<br>
+      - Using business date as the basis, indicates business date minus 6 days.</p ></td>
+    <td valign="top"><p align="left">YYYY-MM-DD</p ></td>
+    <td valign="top"><p align="left">2017-05-26</p ></td>
+    <td valign="top"><p align="left">2017-05-20</p ></td>
+  </tr>
+  <tr>
+    <td width="113" valign="top"><p align="left">${cal_dt}</p ></td>
+    <td width="203" valign="top"><p align="left">- Using   triggering time as the basis, indicates&nbsp;<strong>yesterday</strong>。<br>
+      - Using business date as the basis, indicates today.</p ></td>
+    <td valign="top"><p align="left">YYYY-MM-DD</p ></td>
+    <td valign="top"><p align="left">2017-05-26</p ></td>
+    <td valign="top"><p align="left">2017-05-26</p ></td>
+  </tr>
+  <tr>
+    <td width="113" valign="top"><p align="left">${cal_dt8}</p ></td>
+    <td width="203" valign="top"><p align="left">- Using   triggering time as the basis, indicates&nbsp;<strong>yesterday</strong>。<br>
+      - Using business date as the basis, indicates today.</p ></td>
+    <td valign="top"><p align="left">YYYYMMDD</p ></td>
+    <td valign="top"><p align="left">2017-05-26</p ></td>
+    <td valign="top"><p align="left">20170526</p ></td>
+  </tr>
+  <tr>
+    <td width="113" valign="top"><p align="left">${ncal_dt}</p ></td>
+    <td width="203" valign="top"><p align="left">Using   triggering time as the basis, indicates&nbsp;<strong>today</strong>。<br>
+      Using business date as the basis, indicates today+1.<br>
+      Format: YYYY-MM-DD</p ></td>
+    <td valign="top"><p align="left">YYYY-MM-DD</p ></td>
+    <td valign="top"><p align="left">2017-05-26</p ></td>
+    <td valign="top"><p align="left">2017-05-27</p ></td>
+  </tr>
+  <tr>
+    <td width="113" valign="top"><p align="left">${ncal_dt8}</p ></td>
+    <td width="203" valign="top"><p align="left">Using   triggering time as the basis, indicates&nbsp;<strong>today</strong>.<br>
+      Using business date as the basis, indicates today+1.<br>
+      Format: YYYYMMDD</p ></td>
+    <td valign="top"><p align="left">YYYYMMDD</p ></td>
+    <td valign="top"><p align="left">2017-05-26</p ></td>
+    <td valign="top"><p align="left">20170527</p ></td>
+  </tr>
+  <tr>
+    <td width="113" valign="top"><p align="left">${end_day_this_month8}</p ></td>
+    <td width="203" valign="top"><p align="left">Using business   date as the basis, indicates&nbsp;<strong>last day of this month.</strong></p ></td>
+    <td valign="top"><p align="left">YYYYMMDD</p ></td>
+    <td valign="top"><p align="left">2017-05-26</p ></td>
+    <td valign="top"><p align="left">20170531</p ></td>
+  </tr>
+  <tr>
+    <td width="113" valign="top"><p align="left">${end_day_this_month10}</p ></td>
+    <td width="203" valign="top"><p align="left">Using business   date as the basis, indicates&nbsp;<strong>last day of this month.</strong></p ></td>
+    <td valign="top"><p align="left">YYYY-MM-DD</p ></td>
+    <td valign="top"><p align="left">2017-05-26</p ></td>
+    <td valign="top"><p align="left">2017-05-31</p ></td>
+  </tr>
+  <tr>
+    <td width="113" valign="top"><p align="left">${first_day_this_month8}</p ></td>
+    <td width="203" valign="top"><p align="left">Using business   date as the basis, indicates&nbsp;<strong>first day of this month</strong>。 </p ></td>
+    <td valign="top"><p align="left">YYYYMMDD</p ></td>
+    <td valign="top"><p align="left">2017-05-26</p ></td>
+    <td valign="top"><p align="left">20170501</p ></td>
+  </tr>
+  <tr>
+    <td width="113" valign="top"><p align="left">${first_day_this_month10}</p ></td>
+    <td width="203" valign="top"><p align="left">Using business   date as the basis, indicates&nbsp;<strong>first day of this month</strong>。 </p ></td>
+    <td valign="top"><p align="left">YYYY-MM-DD</p ></td>
+    <td valign="top"><p align="left">2017-05-26</p ></td>
+    <td valign="top"><p align="left">2017-05-01</p ></td>
+  </tr>
+  <tr>
+    <td width="113" valign="top"><p align="left">${first_day_last_month8}</p ></td>
+    <td width="203" valign="top"><p align="left">Using business   date as the basis, indicates&nbsp;<strong>first day of last month</strong>。 </p ></td>
+    <td valign="top"><p align="left">YYYYMMDD</p ></td>
+    <td valign="top"><p align="left">2017-05-26</p ></td>
+    <td valign="top"><p align="left">20170401</p ></td>
+  </tr>
+  <tr>
+    <td width="113" valign="top"><p align="left">${first_day_last_month10}</p ></td>
+    <td width="203" valign="top"><p align="left">Using business   date as the basis, indicates&nbsp;<strong>first day of last month</strong>。 </p ></td>
+    <td valign="top"><p align="left">YYYY-MM-DD</p ></td>
+    <td valign="top"><p align="left">2017-05-26</p ></td>
+    <td valign="top"><p align="left">2017-04-01</p ></td>
+  </tr>
+  <tr>
+    <td width="113" valign="top"><p align="left">${last_day_last_month8}</p ></td>
+    <td width="203" valign="top"><p align="left">Using business   date as the basis, indicates&nbsp;<strong>last day of last month</strong>。 </p ></td>
+    <td valign="top"><p align="left">YYYYMMDD</p ></td>
+    <td valign="top"><p align="left">2017-05-26</p ></td>
+    <td valign="top"><p align="left">2017-04-30</p ></td>
+  </tr>
+  <tr>
+    <td width="113" valign="top"><p align="left">${last_day_last_month10}</p ></td>
+    <td width="203" valign="top"><p align="left">Using business   date as the basis, indicates&nbsp;<strong>last day of last month</strong>。 </p ></td>
+    <td valign="top"><p align="left">YYYY-MM-DD</p ></td>
+    <td valign="top"><p align="left">2017-05-26</p ></td>
+    <td valign="top"><p align="left">201704-30</p ></td>
+  </tr>
+  <tr>
+    <td width="113" valign="top"><p align="left">${monday_next_week8}</p ></td>
+    <td width="203" valign="top"><p align="left">Using business   date as the basis, indicates&nbsp;<strong>next Monday</strong>。 </p ></td>
+    <td valign="top"><p align="left">YYYYMMDD</p ></td>
+    <td valign="top"><p align="left">2017-05-26</p ></td>
+    <td valign="top"><p align="left">20170529</p ></td>
+  </tr>
+  <tr>
+    <td width="113" valign="top"><p align="left">${monday_next_week10}</p ></td>
+    <td width="203" valign="top"><p align="left">Using business   date as the basis, indicates&nbsp;<strong>next Monday</strong>。 </p ></td>
+    <td valign="top"><p align="left">Format:   YYYY-MM-DD</p ></td>
+    <td valign="top"><p align="left">2017-05-26</p ></td>
+    <td valign="top"><p align="left">2017-05-29</p ></td>
+  </tr>
+  <tr>
+    <td width="113" valign="top"><p align="left">${30days_cal_dt}</p ></td>
+    <td width="203" valign="top"><p align="left">Using business   date as the basis, indicates&nbsp;<strong>30 days ago</strong>。 </p ></td>
+    <td valign="top"><p align="left">Format:   YYYY-MM-DD</p ></td>
+    <td valign="top"><p align="left">2017-05-26</p ></td>
+    <td valign="top"><p align="left">2017-0</p ></td>
+  </tr>
 </table>
+</body>
+
 
 ## Time related variables
 
 The following table explains the time-related variables by using `2017-05-27 13:50:00` as the example triggering time.
 
-<table>
-<thead>
-<tr>
-<th>Variable</th>
-<th>Description</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>${this_hour}</td>
-<td>The hour when the workflow is triggered</td>
-<td>2017-05-27 13:00:00</td>
-</tr>
-<tr>
-<td>${unix_timestamp}</td>
-<td>Unix time corresponding to the triggering time</td>
-<td>1495864241</td>
-</tr>
-</tbody>
+<body>
+<table border="1" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top"><p align="center"><strong>Variable</strong></p ></td>
+    <td valign="top"><p align="center"><strong>Description</strong></p ></td>
+    <td valign="top"><p align="center"><strong>Value</strong></p ></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>${this_hour}</p ></td>
+    <td valign="top"><p>The hour when the workflow is triggered</p ></td>
+    <td valign="top"><p>2017-05-27 13:00:00</p ></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>${unix_timestamp}</p ></td>
+    <td valign="top"><p>Unix time corresponding to the triggering   time</p ></td>
+    <td valign="top"><p>1495864241</p ></td>
+  </tr>
 </table>
+</body>
 
 ## Non-time related variables
 
-<table>
-<thead>
-<tr>
-<th>Variable</th>
-<th>Description</th>
-<th>Example</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>${task_id}</td>
-<td>Task ID of the current instance</td>
-<td>2017-05-27 13:00:00</td>
-</tr>
-<tr>
-<td>${instance_id}</td>
-<td>Current instance ID</td>
-<td>1495864241</td>
-</tr>
-<tr>
-<td>${env.APP_CUSTOMER}</td>
-<td>The group account who generated the instance</td>
-<td>CLP</td>
-</tr>
-<tr>
-<td>${env.APP_ID}</td>
-<td>The App ID that the instance belongs to</td>
-<td>a22b94f9-3b9d-40f6-9bd8-4d66b304d930</td>
-</tr>
-</tbody>
+<body>
+<table border="1" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top"><p align="center"><strong>Variable</strong></p ></td>
+    <td valign="top"><p align="center"><strong>Description</strong></p ></td>
+    <td valign="top"><p align="center"><strong>Example</strong></p ></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>${task_id}</p ></td>
+    <td valign="top"><p>Task ID of the current instance</p ></td>
+    <td valign="top"><p>2017-05-27 13:00:00</p ></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>${instance_id}</p ></td>
+    <td valign="top"><p>Current instance ID</p ></td>
+    <td valign="top"><p>1495864241</p ></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>${env.APP_CUSTOMER}</p ></td>
+    <td valign="top"><p>The group account who generated the   instance</p ></td>
+    <td valign="top"><p>CLP</p ></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>${env.APP_ID}</p ></td>
+    <td valign="top"><p>The App ID that the instance belongs to</p ></td>
+    <td valign="top"><p>a22b94f9-3b9d-40f6-9bd8-4d66b304d930</p ></td>
+  </tr>
 </table>
+</body>
