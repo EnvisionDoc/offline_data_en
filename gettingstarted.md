@@ -11,8 +11,8 @@ A typical flow to use EnOS to analyze your offline data is as follows:
 ## Step 1: Prepare the data source and target  
 
 1. Prepare the data source.
-  - If the data source is external, you'll first need to set up connection to the source data. EnOS supports to synchronize data from MYSQL, SQL, Oracle, FTP, SFTP, and Amazon S3 data sources. For information about how to connect to a specified database, see [Data Source](data_source/index).
-  - If the data you want to process and analyze is on EnOS, such as the device master data accumulated and stored on EnOS. You can skip this substep.
+   - If the data source is external, you'll first need to set up connection to the source data. EnOS supports to synchronize data from MYSQL, SQL, Oracle, FTP, SFTP, and Amazon S3 data sources. For information about how to connect to a specified database, see [Data Source](data_source/index).
+   - If the data you want to process and analyze is on EnOS, such as the device master data accumulated and stored on EnOS. You can skip this substep.
 
 2. Prepare the target Create a hive table hosted on EnOS to store the data synchronized from the data source. For more information, see [Creating a hive table](data_explorer/creating_hivetable).
 

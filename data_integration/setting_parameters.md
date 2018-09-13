@@ -29,4 +29,4 @@ For example, you may use parameter when you set the URL to your S3 data source:
 Where `test_list` is a parameter. You can then assign values for the parameter as follows:
   `test_list=Array[20170515,20170516,20170517,20170518,20170519,20170520,20170521,20170522,20170523,20170524,20170808,20170905,20170906,20170918]`
 
-![Example parameter settings](parameter_example_URL.jpg)
+![Example parameter settings](parameter_example_URL.png)

@@ -71,7 +71,7 @@ The only type supported now is Hive. Provide the following settings abut the tar
 In this step, you'll map the source fields to the target fields.
 
 1. For each field in the **Target Fields** column, click the source field from the **Source Fields** column to map the source with target.
-   ![Mapping fields](field_mapping.jpg)
+   ![Mapping fields](sql_mapping.png)
 2. When you finish mapping each field, click **Next**.
 
 ## Step 5: Specify scheduling settings

@@ -28,7 +28,7 @@ When you select to synchronize from a SQL, MySQL, or Oracle database, provide th
 2. Select which table to synchronize from the database.
 3. (Optional) If you want to filter the data to be synchronized, provide the SQL query script.
 4. (Optional) Click **Preview Data**. You can then preview the resultant data to synchronize as shown in the following figure:
-    ![Preview data](di_source.png)
+    ![Preview data](sql_source.png)
 
 5. Click **Next**.
 
@@ -65,7 +65,8 @@ The only type supported now is Hive. Provide the following settings abut the tar
 In this step, you'll map the source fields to the target fields.
 
 1. For each field in the **Target Fields** column, click the source field from the **Source Fields** column to map the source with target.
-   ![Mapping fields](field_mapping.png)
+   ![Mapping fields](sql_mapping.png)
+
 2. When you finish mapping each field, click **Next**.
 
 ## Step 5: Specify scheduling settings

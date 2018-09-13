@@ -29,7 +29,7 @@ To retrieve data from an external FTP data source, create a data source configur
    - **Encryption mode**: When you select FTPS as the protocol, select whether to use explicit or implicit encrytion mode.
    - **Encryption type**: When you select FTPS as the protocol, select whether the FTP connection is over TLS or SSL.
    - **Port**: The port number to use for connection.
-     - For FTP connection, the default port is 21;
+     - For FTP connection, the default port is 21.
      - For FTPS connection, the default port type for explicit transmission is 21 and for implicit transmission, 990.
    - **Username**: the user name to use to access the FTP server.
    - **Password**: the password of the user name.
