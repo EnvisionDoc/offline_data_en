@@ -37,3 +37,5 @@ After the connection is created, the data source item is shown in the **Data Sou
 ## What to do next
 
 When the connection is successfully established, EnOS retrieves the data from the external data source to the EnOS internal Hive database. You must create the Hive table to store the retrived data. For more information, see [Creating Hive table](../data_explorer/creating_hivetable).
+
+You can then configure a data integration workflow to synchronize data from the data source to the target table in EnOS. For more information, see [Data Integration](../data_integration/index).

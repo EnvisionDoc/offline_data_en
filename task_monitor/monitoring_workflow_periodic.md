@@ -1,7 +1,7 @@
-# Monitoring periodic workflows
+# Monitoring periodic workflow instances
 
 For a period worflow, you can perform the following monitoring actions:
-- Viewing the workflow
+- Viewing the workflow instance
 - Pre-running the workflow
 - Pre-running a selected task in the workflow
 - Pre-running a selected task and the subsequent tasks of the task

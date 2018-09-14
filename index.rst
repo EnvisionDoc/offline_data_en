@@ -1,5 +1,5 @@
 ***********************
-Offline data processing
+Big data batch processing
 ***********************
 
 

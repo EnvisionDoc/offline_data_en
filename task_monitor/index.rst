@@ -15,5 +15,3 @@ Task monitor
 
    monitoring_workflow_manual
    monitoring_workflow_periodic
-   monitoring_instance_manual
-   monitoring_instance_periodic

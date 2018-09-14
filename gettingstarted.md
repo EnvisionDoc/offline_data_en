@@ -1,10 +1,10 @@
-# Getting started with offline data processing
+# Getting started with batch data processing
 <!--
 The short description should be a single, concise paragraph that contains one or two sentences and no more than 50 words.
 Briefly mention what the user's learning goal is and include the following SEO keywords in the title short description: EnOS, ServiceName, tutorial.
 -->
 
-A typical flow to use EnOS to analyze your offline data is as follows:
+A typical flow to use EnOS to analyze your historical data is as follows:
 
 ![Four steps to get started with offline data processing](getting_started.jpg)
 
