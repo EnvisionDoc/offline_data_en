@@ -6,7 +6,7 @@ Briefly mention what the user's learning goal is and include the following SEO k
 
 A typical flow to use EnOS to analyze your historical data is as follows:
 
-![Four steps to get started with offline data processing](getting_started.jpg)
+![Four steps to get started with offline data processing](media/getting_started.jpg)
 
 ## Step 1: Prepare the data source and target  
 

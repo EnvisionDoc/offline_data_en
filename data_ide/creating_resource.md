@@ -22,3 +22,7 @@ The procedure to create a resource is as follows:
    - Description: Provide a descriptive information about the version.
 5. Click **OK**.  
 6. Repeart Step 4 to 5 to add more versions for the resource.
+
+## What to do next
+
+You can then invoke the scripts packaged in the resource through a SHELL-type of task in a workflow. For more information, see []

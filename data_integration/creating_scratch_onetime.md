@@ -14,7 +14,7 @@ You must have created the target Hive table to synchronize the data to. For more
    - Name: Enter the name of workflow.
    - Type: Select **One-time**.
    - Description: Provide a descriptive information about the workflow.
-   - Select Directory: Select the directy to save the workflow.
+   - Select Directory: Select the directory to save the workflow.
 
 3. Click **OK**.
 
@@ -32,7 +32,7 @@ When you select to synchronize from a SQL, MySQL, or Oracle database, provide th
    ```
 
 4. (Optional) Click **Preview Data**. You can then preview the resultant data to synchronize as shown in the following figure:
-    ![Preview data](sql_source.png)
+    ![Preview data](media/sql_source.png)
 
 5. Click **Next**.
 
@@ -47,7 +47,7 @@ When you select to synchronize from an FTP, SFTP, or S3 data source, EnOS transf
 5. Specify the compression format of the data file.
 6. Specify the number of header rows in the data file are to be ignored when loading the data.
 7. Specify the header to add for the source table.
-   ![Specify source](s3_source.png)
+   ![Specify source](media/s3_source.png)
 
 8. (Optional) Click **Preview Data**.
 9. Click **Next**.
@@ -62,7 +62,7 @@ The only type supported now is Hive. Provide the following settings abut the tar
    - Column name: The system creates new partitions based on the values in this column. If the column is date for example, and the column values are `20180501` and `20180502`, then two partitions are created, each for one day.
    - Fixed value: If 2017-10-11 is entered for example, the data will be automatically synchronized to the `2017-10-11` partition of the target table.
    - Placeholder: You can use system reserved or custom parameters, for example, the system variable `${cal_dt}`. For more information about the usage of system variable, see [System variables](../data_ide/system_variables).
-    ![Preview data](sql_target.png)  
+    ![Preview data](media/sql_target.png)  
 
 4. Specify whether to overwrite the existing data in the target table, or append the data behind the existing data records.
 5. Click **Next**.
@@ -71,7 +71,7 @@ The only type supported now is Hive. Provide the following settings abut the tar
 In this step, you'll map the source fields to the target fields.
 
 1. For each field in the **Target Fields** column, click the source field from the **Source Fields** column to map the source with target.
-   ![Mapping fields](sql_mapping.png)
+   ![Mapping fields](media/sql_mapping.png)
 2. When you finish mapping each field, click **Next**.
 
 ## Step 5: Specify scheduling settings

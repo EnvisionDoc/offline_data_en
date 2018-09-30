@@ -52,7 +52,7 @@ The following figure shows an example workflow with reference. In this example, 
    - When `True`, the subsequent task is run.
    - When `Faulse`, the subsequent task is not run.
 
-   ![Workflow concepts](workflow_reference.jpg)
+   ![Workflow concepts](media/workflow_reference.jpg)
 
 
 ## Major functionalities

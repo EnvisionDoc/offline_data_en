@@ -17,15 +17,15 @@ To view a manual workflow, do the following steps:
 4. For each task node in the workflow, you can double-click the task node to view the following details:
   - Attributes: settings of the task that is defined at the design time
 
-    ![Task attributes in the workflow monitor](workflow_attributes.jpg)
+    ![Task attributes in the workflow monitor](media/workflow_attributes.jpg)
 
   - Task contents: what's run in the task. What's shown in the Task Contents tab varies according to the task type. The content of a data integration task might look something like this:
 
-    ![Task contents in the workflow monitor](workflow_taskcontents.jpg)
+    ![Task contents in the workflow monitor](media/workflow_taskcontents.jpg)
 
     While an SHELL task content would be something like this:
 
-    ![Task contents in the workflow monitor](workflow_taskcontents2.jpg)
+    ![Task contents in the workflow monitor](media/workflow_taskcontents2.jpg)
 
 ## Pre-running a manual workflow
 

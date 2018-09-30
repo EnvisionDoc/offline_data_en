@@ -41,4 +41,4 @@ columnMust=projectid,deviceid,updatetime,
 columnSelected=envi_monitor_pm1,envi_monitor_pm25
 time_zone=Asia/Shanghai
 ```
-![Example parameter settings](parameter_example_SHELL.jpg)
+![Example parameter settings](media/parameter_example_SHELL.jpg)

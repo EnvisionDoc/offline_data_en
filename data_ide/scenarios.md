@@ -10,12 +10,12 @@ The major procedure of running a built-script is as follows:
 
 1. Browse the Common Library tree and locate the script that you want to run.
 2. Double-click the version of the script and review the details about the script.
-  ![Built-in script](scenario_built-in.png)
+  ![Built-in script](media/scenario_built-in.png)
 
 3. Click **Use the Program**.
 
 4. In the pop-out window, provide settings about the workflow.
-  ![Workflow with built-in script](built-in_workflow.png)
+  ![Workflow with built-in script](media/built-in_workflow.png)
 
 5. Provide the scheduling settings. For more information, see [Creating an one-time workflow](creating_workflow_onetime) or [Creating a periodic workflow](creating_workflow_periodic).
 
