@@ -18,6 +18,7 @@ EnOS Batch Processing
     data_integration/index
     data_ide/index
     task_monitor/index
+    metadata_management/index
 
 .. toctree::
     :maxdepth: 1
