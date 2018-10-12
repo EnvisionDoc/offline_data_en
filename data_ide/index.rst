@@ -22,6 +22,7 @@ Data IDE
    operating_workflow
    operating_task
    setting_parameters
+   running_external_script
 
 .. toctree::
   :maxdepth: 1

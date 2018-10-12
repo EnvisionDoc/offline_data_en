@@ -14,7 +14,6 @@ EnOS Batch Processing
 
     gettingstarted
     data_source/index
-    data_explorer/index
     data_integration/index
     data_ide/index
     task_monitor/index
@@ -25,3 +24,10 @@ EnOS Batch Processing
     :caption: Related services
 
     Data analysis and report <https://docs.envisioniot.com/docs/analysis-report/en/latest/>
+
+Downloads
+""""""""
+    pdf_ htmlzip_ epub_
+.. _pdf: https://docs.envisioniot.com/projects/offline-data/downloads/pdf/latest/
+.. _htmlzip: https://docs.envisioniot.com/projects/offline-data/downloads/htmlzip/latest/
+.. _epub: https://docs.envisioniot.com/projects/offline-data/downloads/epub/latest/

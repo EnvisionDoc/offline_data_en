@@ -74,6 +74,6 @@ When parameters are used when you configure the data source and target, specify 
 
 Click **Pre-run** to test the result of the workflow.
 
-After a workflow is run, an instance is generated. You can then trace the details about the instance through the task monitor. For more information, see [Monitoring periodic workflows](../task_monitor/monitoring_workflow_onetime).
+After a workflow is run, an instance is generated. You can then trace the details about the instance through the task monitor. For more information, see [Monitoring periodic workflows](../task_monitor/monitoring_workflow_manual).
 
 After the data is synchronized from the data source, you can schedule other processing tasks against the data. For more information, see [Data IDE](../data_ide/dataide_overview).

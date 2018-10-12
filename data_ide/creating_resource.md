@@ -25,4 +25,9 @@ The procedure to create a resource is as follows:
 
 ## What to do next
 
-You can then invoke the scripts packaged in the resource through a SHELL-type of task in a workflow. For more information, see []
+You can then invoke the scripts packaged in the resource through a SHELL-type of task in a workflow.
+
+## Reference information
+
+- [Creating an one-time workflow from scratch](creating_workflow_onetime)
+- [Creating a periodic workflow from scratch](creating_workflow_periodic)
