@@ -4,7 +4,7 @@ The typical scenarios of data integration are as follows.
 
 ### Synchronization of full-load of data
 
-Synchronization of full-load of data usually happens at the initial stage of data integration. In this scenario, you synchronize full-load of data from the data source at one-time. To achieve this scenario, see [Creating an one-time synchronization workflow](creating_scratch_onetime).
+Synchronization of full-load of data usually happens at the initial stage of data integration. In this scenario, you synchronize full-load of data from the data source at one-time. To achieve this scenario, see [Creating a one-time synchronization workflow](creating_scratch_onetime).
 
 ### Synchronization of incremental data
 

@@ -1,12 +1,12 @@
-# Creating an one-time workflow from scratch
+# Creating a one-time workflow from scratch
 
-How to create an one-time workflow that is run when you trigger manually.
+How to create a one-time workflow that is run when you trigger manually.
 
 ## Before you begin
 
 Ensure that you've registered the codes and scripts to run against the data as resources. For more information, see [Creating a resource](creating_resource).
 
-**Note**: An one-time workflow cannot be changed to periodic workflow after creation.
+**Note**: A one-time workflow cannot be changed to periodic workflow after creation.
 
 ## Step 1: Create a workflow
 

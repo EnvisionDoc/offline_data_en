@@ -62,4 +62,4 @@ The major procedure of using the built-in SDK is as follows:
 4. In the pop-out window, provide settings about the workflow.
   ![Workflow with built-in script](media/built-in_workflow.png)
 
-5. Provide the scheduling settings. For more information, see [Creating an one-time workflow](creating_workflow_onetime) or [Creating a periodic workflow](creating_workflow_periodic).
+5. Provide the scheduling settings. For more information, see [Creating a one-time workflow](creating_workflow_onetime) or [Creating a periodic workflow](creating_workflow_periodic).

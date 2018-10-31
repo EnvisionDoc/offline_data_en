@@ -13,14 +13,14 @@ You must have a workflow configuration file stored locally. For information abou
    - Mode: select **Import from existing**.
    - Upload File: In your local file system, browse to and select the configuration file.
    - Name: Enter the name of workflow.
-   - Type: Select whether to create a periodic workflow that is run automatically based on scheduling parameters, or an one-time workflow that is run only when manually triggered.
+   - Type: Select whether to create a periodic workflow that is run automatically based on scheduling parameters, or a one-time workflow that is run only when manually triggered.
    - Description: Provide descriptive information about the workflow.
    - Select Directory: Select the directy to save the workflow.
 
 3. Click **OK**.
 4. Edit the settings that are loaded from the configuration file.
   - If you selected to create a periodic workflow in step 2, see [Creating a periodic synchronization workflow from scratch](creating_scratch_periodic).
-  - If you selected to create an one-time workflow in step 2, see [Creating an one-time synchronization workflow from scratch](creating_scratch_onetime).
+  - If you selected to create a one-time workflow in step 2, see [Creating a one-time synchronization workflow from scratch](creating_scratch_onetime).
 
 ## What to do next
 

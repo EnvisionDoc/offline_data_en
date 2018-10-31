@@ -29,5 +29,5 @@ You can then invoke the scripts packaged in the resource through a SHELL-type of
 
 ## Reference information
 
-- [Creating an one-time workflow from scratch](creating_workflow_onetime)
+- [Creating a one-time workflow from scratch](creating_workflow_onetime)
 - [Creating a periodic workflow from scratch](creating_workflow_periodic)
