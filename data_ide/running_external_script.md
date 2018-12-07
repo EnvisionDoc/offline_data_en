@@ -84,14 +84,21 @@ Upload the `.zip` file as a resource of EnOS in the following procedure:
 
 6. Click the **Parameter Config** tab from the right edge of the task configuration panel and provide the following settings:
 	```
-	service_url="http://172.20.101.141:8185/uploadservice"    
-	command="python example-conda.py"  
+	service_url="http://<domain_name>/uploadservice"    
+	command="python example-conda.sh"  
 	```
+   Where `domain_name` varies with the cloud region and instance:
+   - For public cloud instances:
+     - China: dataimp-cn1.eniot.io
+     - Europe: dataimp-eu1.eniot.io
+     - US: dataimp-us1.eniot.io
+   - For private cloud instances, obtain your dedicated domain name from your Envision project manager or support representative. 
+
   **Note**: You'll need to edit the value of `command` with the name of your master script file.
 
    The following figure shows the task configuration in this example.
 
-   ![Task configuration](media/task.jpg)
+   ![Task configuration](media/task.png)
 
 7. Click **Save**. Click **Back to workflow panel** and click **Release** to publish the workflow.
 

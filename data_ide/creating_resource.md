@@ -21,7 +21,7 @@ The procedure to create a resource is as follows:
       For example, v1.0.0.
    - Description: Provide a descriptive information about the version.
 5. Click **OK**.  
-6. Repeart Step 4 to 5 to add more versions for the resource.
+6. Repeat Step 4 to 5 to add more versions for the resource.
 
 ## What to do next
 

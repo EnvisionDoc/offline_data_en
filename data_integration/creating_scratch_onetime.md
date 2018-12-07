@@ -1,6 +1,6 @@
-# Creating a one-time synchronization workflow from scratch
+# Creating a manual workflow from scratch to synchronize data from external data sources to Hive
 
-How to create a one-time data synchronization workflow from scratch.
+How to create an one-time data synchronization workflow from scratch.
 
 ## Before you begin
 

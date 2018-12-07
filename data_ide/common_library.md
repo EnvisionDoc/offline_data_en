@@ -4,7 +4,7 @@ EnOS provides various built-in SDKs in its common library to help you access and
 
 ## What's provided in the library
 
-<body>
+
 <table border="1" cellspacing="0" cellpadding="0">
   <tr>
     <td valign="top"><p align="center"><strong>SDK name</strong></p ></td>
@@ -47,7 +47,7 @@ EnOS provides various built-in SDKs in its common library to help you access and
     <td valign="top"><p>Combines many small files into fewer larger files.</p ></td>
   </tr>
 </table>
-</body>
+
 
 ## How to use the SDK
 
