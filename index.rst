@@ -7,13 +7,18 @@ EnOS Batch Processing
    :hidden: 
    :caption: Back to
 
-   EnOS fundamental <https://docs.envisioniot.com/docs/enos/en/latest/overview/enos_introduction.html>
+   EnOS Fundamental <https://docs.envisioniot.com/docs/enos/en/latest/overview/enos_introduction.html>
+
+.. toctree::
+    :maxdepth: 0
+    :caption: Getting started
+
+    gettingstarted
 
 .. toctree::
     :maxdepth: 1
     :caption: Batch processing
 
-    gettingstarted
     data_source/index
     data_integration/index
     data_ide/index
@@ -24,7 +29,7 @@ EnOS Batch Processing
     :maxdepth: 1
     :caption: Related services
 
-    Data analysis and report <https://docs.envisioniot.com/docs/analysis-report/en/latest/>
+    Data Analysis and Report <https://docs.envisioniot.com/docs/analysis-report/en/latest/>
 
 Downloads
 """"""""

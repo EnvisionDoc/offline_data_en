@@ -1,4 +1,4 @@
-# Getting started with batch data processing
+# Getting Started with Batch Data Processing
 <!--
 The short description should be a single, concise paragraph that contains one or two sentences and no more than 50 words.
 Briefly mention what the user's learning goal is and include the following SEO keywords in the title short description: EnOS, ServiceName, tutorial.
