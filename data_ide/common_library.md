@@ -7,44 +7,44 @@ EnOS provides various built-in SDKs in its common library to help you access and
 
 <table border="1" cellspacing="0" cellpadding="0">
   <tr>
-    <td valign="top"><p align="center"><strong>SDK name</strong></p ></td>
-    <td valign="top"><p align="center"><strong>Description</strong></p ></td>
+    <td><p align="center"><strong>SDK name</strong></p ></td>
+    <td><p align="center"><strong>Description</strong></p ></td>
   </tr>
   <tr>
-    <td valign="top"><p>SYNC_HDFS_TO_S3</p ></td>
-    <td valign="top"><p>Synchronize data from a specified path in HDFS to a specified   path in an S3 database.</p ></td>
+    <td><p>SYNC_HDFS_TO_S3</p ></td>
+    <td><p>Synchronize data from a specified path in HDFS to a specified   path in an S3 database.</p ></td>
   </tr>
   <tr>
-    <td valign="top"><p>COLUMNS_TO_ROWS</p ></td>
-    <td valign="top"><p>Converts row data of your HIVE table, where each row contains   values of all data collecting points of a device at a time, into a table   where each row contains historical values of a single data collecting point.</p ></td>
+    <td><p>COLUMNS_TO_ROWS</p ></td>
+    <td><p>Converts row data of your HIVE table, where each row contains   values of all data collecting points of a device at a time, into a table   where each row contains historical values of a single data collecting point.</p ></td>
   </tr>
   <tr>
-    <td valign="top"><p>SYNC_MDM</p ></td>
-    <td valign="top"><p>Synchronizes master data to HDFS.</p ></td>
+    <td><p>SYNC_MDM</p ></td>
+    <td><p>Synchronizes master data to HDFS.</p ></td>
   </tr>
   <tr>
-    <td valign="top"><p>SYNC_REPORT_DB</p ></td>
-    <td valign="top"><p>Performs one-time synchronization of full-load of data from   Hive table to your target table.</p ></td>
+    <td><p>SYNC_REPORT_DB</p ></td>
+    <td><p>Performs one-time synchronization of full-load of data from   Hive table to your target table.</p ></td>
   </tr>
   <tr>
-    <td valign="top"><p>FLATTEN_POINTS</p ></td>
-    <td valign="top"><p>Converts EnOS raw point data (each row contains historical   values of a single data collecting point) to sql-like row data (each row   contains values of all data collecting points of a device at a time).</p ></td>
+    <td><p>FLATTEN_POINTS</p ></td>
+    <td><p>Converts EnOS raw point data (each row contains historical   values of a single data collecting point) to sql-like row data (each row   contains values of all data collecting points of a device at a time).</p ></td>
   </tr>
   <tr>
-    <td valign="top"><p>POWER_DATA_INTERPOLATION</p ></td>
-    <td valign="top"><p>Interpolates power data, especially for the missing data of   production.</p ></td>
+    <td><p>POWER_DATA_INTERPOLATION</p ></td>
+    <td><p>Interpolates power data, especially for the missing data of   production.</p ></td>
   </tr>
   <tr>
-    <td valign="top"><p>SYNC_REPORT_STRUCTURE</p ></td>
-    <td valign="top"><p>Transfers table structure from Hive database, to MySQL report   database.</p ></td>
+    <td><p>SYNC_REPORT_STRUCTURE</p ></td>
+    <td><p>Transfers table structure from Hive database, to MySQL report   database.</p ></td>
   </tr>
   <tr>
-    <td valign="top"><p>SHORT_TERM_LOAD_FORECAST</p ></td>
-    <td valign="top"><p>For different power consumers in the grid, provides 0-6 days   load forecast for different-level of time granularity (15 min, 30 min, 1   hour, 1 day) based on historical data and optionally weather data.</p ></td>
+    <td><p>SHORT_TERM_LOAD_FORECAST</p ></td>
+    <td><p>For different power consumers in the grid, provides 0-6 days   load forecast for different-level of time granularity (15 min, 30 min, 1   hour, 1 day) based on historical data and optionally weather data.</p ></td>
   </tr>
   <tr>
-    <td valign="top"><p>HADOOP_FILE_CRUSHER</p ></td>
-    <td valign="top"><p>Combines many small files into fewer larger files.</p ></td>
+    <td><p>HADOOP_FILE_CRUSHER</p ></td>
+    <td><p>Combines many small files into fewer larger files.</p ></td>
   </tr>
 </table>
 

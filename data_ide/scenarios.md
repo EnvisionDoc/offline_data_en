@@ -6,7 +6,7 @@ The typical user scenarios of using Data IDE for data development are as follows
 
 EnOS provides built-in scripts for the most frequently used data processing activities, such as synchronizing the master data from HDFS to an external S3 database, or converting columns to rows. For a complete list of built-in scripts that EnOS provides, see [Common library](common_library).
 
-The major procedure of running a built-script is as follows:
+The major procedure of running a built-in script is as follows:
 
 1. Browse the Common Library tree and locate the script that you want to run.
 2. Double-click the version of the script and review the details about the script.

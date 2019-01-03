@@ -1,9 +1,9 @@
-# Creating connection to an ORACLE data source
+# Configuring an ORACLE data source
 
-This topic instructs how to configure the connection to an FTP data source.
+This topic instructs how to configure the connection to a ORACLE data source.
 
 ## About this task
-To retrieve data from an external FTP data source, create a data source configuration that specifies information about the FTP connection.
+To retrieve data from an ORACLE data source, create a data source configuration that specifies information about the ORACLE connection.
 
 ## Procedure
 
@@ -21,15 +21,10 @@ To retrieve data from an external FTP data source, create a data source configur
      - _ (underscore)  
      The maximum length of the data source name is 50 characters.
    - **Data source type**: ORACLE
-     - **Protocol**: whether to use FTP or FTPS as the protocol to connect to the data source.   
-     - **Mode**: the connection mode.
-       - When you select the active mode, the FTP server initiates the connection.
-       - When you select the passive mode, EnOS initiates the connection.
-   - **IP address**: the IP adderss of the FTP server.
-   - **Port**: the port number
-     - For FTP, the default port is 21;
-     - For FTPS, the default port type for explicit transmission is 21 and for implicit transmission, 990.
-   - **Username**: the user name to use to access the FTP server.
+   - **Host name or IP address**: Enter the host name or IP address where the database is hosted.     
+   - **Service Name or SID**: the Service name or the SID of the ORACLE.
+   - **Port**: the port number. The default port is 1521.
+   - **Username**: the user name to use to access the ORACLE.
    - **Password**: the password of the user name.
    - **Data source description**: a description of the data source.
 
@@ -41,6 +36,6 @@ After the connection is created, the data source item is shown in the **Data Sou
 
 ## What to do next
 
-When the connection is successfully established, EnOS retrieves the data from the external data source to the EnOS internal Hive database. You must create the Hive table to store the retrived data. For more information, see [Creating Hive table](https://docs.envisioniot.com/docs/analysis-report/en/latest/data_explorer/creating_hivetable.html) in *Data Analysis and Report*.
+When the connection is successfully established, EnOS retrieves the data from the external data source to the EnOS internal Hive database. You must create the Hive table to store the retrieved data. For more information, see [Creating Hive table](https://docs.envisioniot.com/docs/analysis-report/en/latest/data_explorer/creating_hivetable.html) in *Data Analysis and Report*.
 
 You can then configure a data integration workflow to synchronize data from the data source to the target table in EnOS. For more information, see [Data Integration](../data_integration/index).

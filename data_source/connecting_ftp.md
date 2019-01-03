@@ -25,8 +25,8 @@ To retrieve data from an external FTP data source, create a data source configur
      - **Mode**: The connection mode.
        - When you select the active mode, the FTP server initiates the connection.
        - When you select the passive mode, EnOS initiates the connection.
-   - **IP address**: The IP adderss of the FTP server.
-   - **Encryption mode**: When you select FTPS as the protocol, select whether to use explicit or implicit encrytion mode.
+   - **IP address**: The IP address of the FTP server.
+   - **Encryption mode**: When you select FTPS as the protocol, select whether to use explicit or implicit encryption mode.
    - **Encryption type**: When you select FTPS as the protocol, select whether the FTP connection is over TLS or SSL.
    - **Port**: The port number to use for connection.
      - For FTP connection, the default port is 21.
@@ -43,6 +43,6 @@ After the connection is created, the data source item is shown in the **Data Sou
 
 ## What to do next
 
-When the connection is successfully established, EnOS retrieves the data from the external data source to the EnOS internal Hive database. You must create the Hive table to store the retrived data. For more information, see [Creating Hive table](https://docs.envisioniot.com/docs/analysis-report/en/latest/data_explorer/creating_hivetable.html) in *Data Analysis and Report*.
+When the connection is successfully established, EnOS retrieves the data from the external data source to the EnOS internal Hive database. You must create the Hive table to store the retrieved data. For more information, see [Creating Hive table](https://docs.envisioniot.com/docs/analysis-report/en/latest/data_explorer/creating_hivetable.html) in *Data Analysis and Report*.
 
 You can then configure a data integration workflow to synchronize data from the data source to the target table in EnOS. For more information, see [Data Integration](../data_integration/index).

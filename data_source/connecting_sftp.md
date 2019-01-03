@@ -21,9 +21,9 @@ To retrieve data from an external SFTP data source, create a data source configu
      - _ (underscore)  
      The maximum length of the data source name is 50 characters.
    - **Data source type**: SFTP
-   - **IP address**: The IP adderss of the SFTP server.
+   - **IP address**: The IP address of the SFTP server.
    - **Port**: The port number to use for connection. The default port number is 22.
-   - **Username**: the user name to use to access the FTP server.
+   - **Username**: the user name to use to access the SFTP server.
    - **Password**: the password of the user name.
    - **Data source description**: a description of the data source.
 
@@ -35,6 +35,6 @@ After the connection is created, the data source item is shown in the **Data Sou
 
 ## What to do next
 
-When the connection is successfully established, EnOS retrieves the data from the external data source to the EnOS internal Hive database. You must create the Hive table to store the retrived data. For more information, see [Creating Hive table](https://docs.envisioniot.com/docs/analysis-report/en/latest/data_explorer/creating_hivetable.html) in *Data Analysis and Report*.
+When the connection is successfully established, EnOS retrieves the data from the external data source to the EnOS internal Hive database. You must create the Hive table to store the retrieved data. For more information, see [Creating Hive table](https://docs.envisioniot.com/docs/analysis-report/en/latest/data_explorer/creating_hivetable.html) in *Data Analysis and Report*.
 
 You can then configure a data integration workflow to synchronize data from the data source to the target table in EnOS. For more information, see [Data Integration](../data_integration/index).

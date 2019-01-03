@@ -18,9 +18,9 @@ A typical flow to use EnOS to analyze your historical data is as follows:
 
 ## Step 2: Synchronize the data from your data source to EnOS
 
-For external data source, you can create data integration workflows from sratch or from importing existing workflows to synchronize your data. You can schedule one-time or periodical workflows as you need. For more information, see [Data integration](data_integration/index)
+For external data source, you can create data integration workflows from scratch or from importing existing workflows to synchronize your data. You can schedule one-time or periodical workflows as you need. For more information, see [Data integration](data_integration/index)
 
-For master data synchrization, you can use the Data IDE function to create a workflow that uses the `SYNC_MDM` program. For more information, see [Data IDE](data_ide/index).
+For master data synchronization, you can use the Data IDE function to create a workflow that uses the `SYNC_MDM` program. For more information, see [Data IDE](data_ide/index).
 
 ## Step 3: Process the data
 
@@ -30,4 +30,4 @@ For more information, see [Data IDE](data_ide/index).
 
 ## Step 4: (Optional) Explore the data
 
-Optionally, you can use the Data Explorer function to help you perform interactive data analytics and visualization before you start to use the data for futher purposes such as dashboard and business intelligence. For more information, see [Data Explorer](https://docs.envisioniot.com/docs/analysis-report/en/latest/data_explorer/overview.html) in *Data Analysis and Report*.
+Optionally, you can use the Data Explorer function to help you perform interactive data analytics and visualization before you start to use the data for further purposes such as dashboard and business intelligence. For more information, see [Data Explorer](https://docs.envisioniot.com/docs/analysis-report/en/latest/data_explorer/overview.html) in *Data Analysis and Report*.
