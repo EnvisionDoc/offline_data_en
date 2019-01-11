@@ -2,8 +2,8 @@
 
 The batch processing of big data is mainly targeted for _data at rest_. In this scenario, the source data is loaded into data storage, either by the source application itself or by an orchestration workflow. The data is then processed in-place by a parallelized job, which can also be initiated by the orchestration workflow. The processing may include multiple iterative steps before the transformed results are loaded into an analytical data store, which can be queried by analytics and reporting components.
 
-![](media/batch_processing_overview.png)
-
+.. image:: media/batch_processing_overview.png
+   :width: 400px
 
 ## What is batch processing?
 

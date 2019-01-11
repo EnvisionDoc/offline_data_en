@@ -20,11 +20,9 @@ To trace the usage of a resource version, you can view the workflows and task no
 
 You can delete a resource version or an entire resource when it is no longer needed.
 
-**Note**: The following rules apply when you delete a resource or a resource version:
-
-- To delete a resource version, ensure that the version of resource is not referenced by any workflow. Otherwise, the current resource version cannot be deleted. To determine which workflow or task node is referencing the resource version, click **Reference** from the **Operations** column.
-
-- To delete an entire resource, you must first delete all versions under the resource. Otherwise, you cannot delete the entire resource.
+.. note:: The following rules apply when you delete a resource or a resource version:
+          - To delete a resource version, ensure that the version of resource is not referenced by any workflow. Otherwise, the current resource version cannot be deleted. To determine which workflow or task node is referencing the resource version, click **Reference** from the **Operations** column.
+          - To delete an entire resource, you must first delete all versions under the resource. Otherwise, you cannot delete the entire resource.
 
 To delete a resource version, click **Delete** from the **Operations** column.
 

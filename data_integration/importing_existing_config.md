@@ -9,7 +9,9 @@ You must have a workflow configuration file stored locally. For information abou
 ## Procedure
 
 1. Click **Data Integration** from the left navigation tree and click **New Data Integration Workflow**.
+
 2. In the **New Data Integration Workflow** window, provide the following settings.
+
    - Mode: select **Import from existing**.
    - Upload File: In your local file system, browse to and select the configuration file.
    - Name: Enter the name of workflow.
@@ -18,9 +20,11 @@ You must have a workflow configuration file stored locally. For information abou
    - Select Directory: Select the directy to save the workflow.
 
 3. Click **OK**.
+
 4. Edit the settings that are loaded from the configuration file.
-  - If you selected to create a periodic workflow in step 2, see [Creating a periodic synchronization workflow from scratch](creating_scratch_periodic).
-  - If you selected to create a one-time workflow in step 2, see [Creating a one-time synchronization workflow from scratch](creating_scratch_onetime).
+
+   - If you selected to create a periodic workflow in step 2, see [Creating a periodic synchronization workflow from scratch](creating_scratch_periodic).
+   - If you selected to create a one-time workflow in step 2, see [Creating a one-time synchronization workflow from scratch](creating_scratch_onetime).
 
 ## What to do next
 

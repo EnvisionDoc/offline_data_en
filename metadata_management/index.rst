@@ -1,7 +1,5 @@
 Metadata Management
--------------------------------
-
-
+=====================
 
 .. toctree::
    :maxdepth: 1

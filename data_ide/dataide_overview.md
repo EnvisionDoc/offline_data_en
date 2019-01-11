@@ -46,13 +46,19 @@ The data development process falls into the following stages.
   At the monitor time, you can re-run a single task node or re-run a node and its subsequent nodes to pinpoint issues with the workflow.
 
 The following figure shows an example workflow with reference. In this example, the following facts are true:
-1. Task 1 and Task 2 are not run until the reference is run.
+
+1. Task 1 and Task 2 are not run untill the reference is run.
+
 2. If the workflow is periodic, all tasks are run at each cycle as defined by the scheduling parameters.
+
 3. `True` and `False` applies only at the monitor time when you re-run a task.
+
    - When `True`, the subsequent task is run.
    - When `Faulse`, the subsequent task is not run.
 
-   ![Workflow concepts](media/workflow_reference.jpg)
+   .. image:: media/workflow_reference.png
+      :alt: Figure: Workflow concepts
+      :width: 400px
 
 
 ## Major functionalities

@@ -14,20 +14,30 @@ You can view general information about a workflow and the detailed information a
 
 To view a periodic workflow, do the following steps:
 1. From the navigation panel, click **Task Monitor** > **Periodic Scheduling**. A table of all workflows that you have access to is shown in the right panel.
+
 2. (Optional) In the search field above the table, enter the task ID or name to filter to result shown in the table.
+
 3. Click the name of the workflow that you want to inspect details for from the table. A workflow panel is shown.
+
 4. For each task node in the workflow, you can double-click the task node to view the following details:
-  - Attributes: settings of the task that is defined at the design time
 
-    ![Task attributes in the workflow monitor](media/workflow_attributes.jpg)
+   - Attributes: settings of the task that is defined at the design time
 
-  - Task contents: what's run in the task. What's shown in the Task Contents tab varies according to the task type. The content of a data integration task might look something like this:
+   .. image:: media/workflow_attributes.png
+      :alt: Figure: Task attributes in the workflow monitor
+      :width: 400px
 
-    ![Task contents in the workflow monitor](media/workflow_taskcontents.jpg)
+   - Task contents: what's run in the task. What's shown in the Task Contents tab varies according to the task type. The content of a data integration task might look something like this:
 
-    While an SHELL task content would be something like this:
+   .. image:: media/workflow_taskcontents.png
+      :alt: Figure: Task contents in the workflow monitor
+      :width: 400px
 
-    ![Task contents in the workflow monitor](media/workflow_taskcontents2.jpg)
+   While an SHELL task content would be something like this:
+
+   .. image:: media/workflow_taskcontent2s.png
+      :alt: Figure: Task contents in the workflow monitor
+      :width: 400px
 
 ## Pre-running a workflow
 
@@ -36,7 +46,9 @@ To manually trigger a workflow, click **Pre-run** from the **Operations** column
 ## Pre-running a task
 
 To manually trigger a task within a workflow:
+
 1. Click the name of the workflow from the table.
+
 2. In the workflow panel, right-click the task and click **Pre-run** and set the triggering time.
 
 ## Starting and pausing a workflow
