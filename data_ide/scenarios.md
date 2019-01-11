@@ -14,7 +14,7 @@ The major procedure of running a built-in script is as follows:
 
    .. image:: media/scenario_built-in.png
       :alt: Figure: Built-in script
-      :width: 400px
+      :width: 780px
 
 3. Click **Use the Program**.
 
@@ -22,7 +22,7 @@ The major procedure of running a built-in script is as follows:
 
    .. image:: media/built-in_workflow.png
       :alt: Figure: Workflow with bulit-in script
-      :width: 400px
+      :width: 780px
 
 5. Provide the scheduling settings. For more information, see [Creating a one-time workflow](creating_workflow_onetime) or [Creating a periodic workflow](creating_workflow_periodic).
 

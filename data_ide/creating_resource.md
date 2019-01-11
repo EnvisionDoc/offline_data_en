@@ -13,15 +13,13 @@ The procedure to create a resource is as follows:
    - Name: Enter the name of resource.
    - Description: Provide a descriptive information about the resource.
    - Select Directory: Select the directy to save the resource.
+
 3. Click **OK**.
 
 4. In the resource details panel, click **New Version** to add a version of resource.
 
    - Upload: From your local file system, browse to and select the script file.
-   - Version: Specify the version of resource in the format of
-      ```
-      v<version_number>.<release_number>.<modifier_number>
-      ```
+   - Version: Specify the version of resource in the format of `v<version_number>.<release_number>.<modifier_number>`
       For example, v1.0.0.
    - Description: Provide a descriptive information about the version.
 

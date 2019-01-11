@@ -38,14 +38,14 @@ The major procedure of using the built-in SDK is as follows:
 
    .. image:: media/scenario_built-in.png
       :alt: Figure: Built-in script
-      :width: 400px
+      :width: 700px
 
 3. Click **Use the SDK**.
 
 4. In the pop-out window, provide settings about the workflow.
 
-   .. image:: media/build-in_workflow.png
+   .. image:: media/built-in_workflow.png
       :alt: Figure: Workflow with built-in script
-      :width: 400px
+      :width: 700px
 
 5. Provide the scheduling settings. For more information, see [Creating a one-time workflow](creating_workflow_onetime) or [Creating a periodic workflow](creating_workflow_periodic).

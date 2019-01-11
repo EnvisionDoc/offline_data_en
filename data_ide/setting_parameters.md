@@ -48,6 +48,5 @@ time_zone=Asia/Shanghai
 
 .. image:: media/parameter_example_SHELL.png
    :alt: Figure: Example parameter settings
-   :width: 400px
 
 <!--end-->

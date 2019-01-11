@@ -9,7 +9,9 @@ You must have created the target Hive table to synchronize the data to. For more
 ## Step 1: Create an data integration workflow
 
 1. Click **Data Integration** from the left navigation tree and click **New Data Integration Workflow**.
+
 2. In the **New Data Integration Workflow** window, provide the basic settings about the workflow.
+
    - Mode: Select **Create** to create a workflow from scratch. If you select **Import from Configuration**, go to [Creating by importing an existing workflow configuration](importing_existing_config).
    - Name: Enter the name of workflow.
    - Type: Select **Periodic**.
@@ -34,7 +36,7 @@ When you select to synchronize from a SQL, MySQL, or Oracle database, provide th
 
    .. image:: media/sql_source.png
       :alt: Figure: Preview data
-      :width: 400px
+      :width: 700px
 
 5. Click **Next**.
 
@@ -76,7 +78,7 @@ The only type supported now is Hive. Provide the following settings abut the tar
 
    .. image:: media/sql_target.png
       :alt: Figure: Preview data
-      :width: 400px  
+      :width: 700px  
 
 4. Specify whether to overwrite the existing data in the target table, or append the data behind the existing data records.
 

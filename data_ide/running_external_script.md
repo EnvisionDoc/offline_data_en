@@ -57,7 +57,7 @@ Upload the `.zip` file as a resource of EnOS in the following procedure:
    - Name: Enter the name of resource.
    - Description: Provide a descriptive information about the resource.
    - Select Directory: Select the directy to save the resource.
-	 Click **OK**.
+	   Click **OK**.
 
 3. Click **New version** and upload the `external_service.zip` file with settings as shown in the following figure:
 
@@ -71,10 +71,10 @@ Upload the `.zip` file as a resource of EnOS in the following procedure:
 
 2. In the **New Workflow** window, provide the following settings about the workflow and click **OK**.
 
-	 - **Mode**: Create.
-	 - **Name**: external_script_1
-	 - **Type**: Manual Scheduling
-	 - Select Dir: the directory where you want to store the workflow.
+   - **Mode**: Create.
+   - **Name**: external_script_1
+   - **Type**: Manual Scheduling
+   - Select Dir: the directory where you want to store the workflow.
 
    .. image:: media/new_workflow.png
       :alt: Figure: New workflow
@@ -86,11 +86,11 @@ Upload the `.zip` file as a resource of EnOS in the following procedure:
 
    .. image:: media/new_task.png
       :alt: Figure: New task
-      :width: 400px
+      :width: 750px
 
 5. Double click the task node that you just created and provide the following settings about the task:
 
-	 - **Command**: enter the following command:
+   - **Command**: enter the following command:
 
      ```
 	   sh external_service.sh ${service_url} ${instance_id} ${command}
@@ -98,7 +98,7 @@ Upload the `.zip` file as a resource of EnOS in the following procedure:
 
      where, *service_url* and *command* are parameters that you'll define in the **Parameter Config** tab. *instance_id* is a system variable that indicates the identifier of the workflow instance.
 
-	 - Select the resource and resource version that you uploaded in Step 2.
+   - Select the resource and resource version that you uploaded in Step 2.
 
 6. Click the **Parameter Config** tab from the right edge of the task configuration panel and provide the following settings:
 
@@ -120,7 +120,7 @@ Upload the `.zip` file as a resource of EnOS in the following procedure:
 
    .. image:: media/task.png
       :alt: Figure: Task configuration
-      :width: 400px
+      :width: 700px
 
 7. Click **Save**. Click **Back to workflow panel** and click **Release** to publish the workflow.
 
@@ -136,12 +136,12 @@ After you pre-run the workflow, a workflow instance is generated. You can then t
 
    .. image:: media/instance.png
       :alt: Figure: Instance list
-      :width: 400px
+      :width: 700px
 
 3. Click the name of instance from the table and double-click the task from the panel. You can then view the log by clicking the **Scheduling Log** tab.
 
    .. image:: media/log.png
       :alt: Figure: Log
-      :width: 400px
+      :width: 700px
 
 <!--end-->

@@ -25,19 +25,19 @@ To view a periodic workflow, do the following steps:
 
    .. image:: media/workflow_attributes.png
       :alt: Figure: Task attributes in the workflow monitor
-      :width: 400px
+      :width: 700px
 
    - Task contents: what's run in the task. What's shown in the Task Contents tab varies according to the task type. The content of a data integration task might look something like this:
 
    .. image:: media/workflow_taskcontents.png
       :alt: Figure: Task contents in the workflow monitor
-      :width: 400px
+      :width: 700px
 
    While an SHELL task content would be something like this:
 
-   .. image:: media/workflow_taskcontent2s.png
+   .. image:: media/workflow_taskcontent2.png
       :alt: Figure: Task contents in the workflow monitor
-      :width: 400px
+      :width: 700px
 
 ## Pre-running a workflow
 
