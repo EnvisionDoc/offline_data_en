@@ -35,7 +35,7 @@ To view a periodic workflow, do the following steps:
 
    While an SHELL task content would be something like this:
 
-   .. image:: media/workflow_taskcontent2.png
+   .. image:: media/workflow_taskcontents2.png
       :alt: Figure: Task contents in the workflow monitor
       :width: 700px
 
