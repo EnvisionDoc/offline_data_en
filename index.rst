@@ -2,12 +2,6 @@
 EnOS™ Batch Processing
 ***********************
 
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: Back to
-
-   EnOS™ Fundamental <https://docs.envisioniot.com/docs/enos/en/latest/overview/enos_introduction.html>
 
 .. toctree::
    :maxdepth: 1
@@ -35,11 +29,11 @@ EnOS™ Batch Processing
    :maxdepth: 1
    :caption: Related services
 
-   Data Analysis and Report <https://docs.envisioniot.com/docs/analysis-report/en/latest/report_overview.html>
+   Data Analysis and Report <https://www.envisioniot.com/docs/analysis-report/en/latest/report_overview.html>
 
 Downloads
 """"""""
     pdf_ htmlzip_ epub_
-.. _pdf: https://docs.envisioniot.com/projects/offline-data/downloads/pdf/latest/
-.. _htmlzip: https://docs.envisioniot.com/projects/offline-data/downloads/htmlzip/latest/
-.. _epub: https://docs.envisioniot.com/projects/offline-data/downloads/epub/latest/
+.. _pdf: https://www.envisioniot.com/projects/offline-data/downloads/pdf/latest/
+.. _htmlzip: https://www.envisioniot.com/projects/offline-data/downloads/htmlzip/latest/
+.. _epub: https://www.envisioniot.com/projects/offline-data/downloads/epub/latest/

@@ -4,7 +4,7 @@ How to create a periodic data integration task from scratch.
 
 ## Before you begin
 
-You must have created the target Hive table to synchronize the data to. For more information, see [Creating a Hive table](https://docs.envisioniot.com/docs/data-explorer/en/latest/creating_hivetable.html) in *Data Explorer*.
+You must have created the target Hive table to synchronize the data to. For more information, see [Creating a Hive table](https://www.envisioniot.com/docs/data-explorer/en/latest/creating_hivetable.html) in *Data Explorer*.
 
 ## Step 1: Create an data integration workflow
 

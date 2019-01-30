@@ -9,7 +9,7 @@ A data integration workflow is specific type of workflow. The essence of a data 
 
 The data integration function only supports synchronization of structured data, that is data which can be abstracted as two-dimensional tables.
 
-Unstructured data such as MP3 is not supported by data integration. However, you can schedule SHELL-type of tasks in a workflow to synchronize the unstructured data. For information about unstructured data synchronization, `Data IDE <../data_ide/index>`__
+Unstructured data such as MP3 is not supported by data integration. However, you can schedule SHELL-type of tasks in a workflow to synchronize the unstructured data. For information about unstructured data synchronization, `Data IDE <../data_ide/dataide_overview>`__
 
 
 .. toctree::

@@ -11,9 +11,9 @@ EnOS supports to synchronize Hive data to the following databases:
 
 You must have created the target table before synchronizing:
 
-- If you synchronize the data to the external MySQL database, you must establish and verify the connection in **Data Source** and create a target table. For more information, see [Configuring an SQL or MySQL Server data source](https://docs.envisioniot.com/docs/offline-data/en/latest/data_source/connecting_mysql.html)
+- If you synchronize the data to the external MySQL database, you must establish and verify the connection in **Data Source** and create a target table. For more information, see [Configuring an SQL or MySQL Server data source](../data_source/connecting_mysql)
 
-- If you synchronize the data to EnOS report DB, you must create a MySQL note in **Data Explorer** and create a target table. For more information, see [Getting started with Data Explorer](https://docs.envisioniot.com/docs/data-explorer/en/latest/gettingstarted.html).
+- If you synchronize the data to EnOS report DB, you must create a MySQL note in **Data Explorer** and create a target table. For more information, see [Getting started with Data Explorer](https://www.envisioniot.com/docs/data-explorer/en/latest/gettingstarted.html).
 
 
 ## Step 1: Create data integration workflow

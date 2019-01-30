@@ -417,8 +417,6 @@ job monitoring functions.
 
    Please note that the latest running status of the jobs can be viewed by clicking the "Refresh the Page" button on the upper left corner, as described below:
 
-   .. image:: media/6dcb80bec9244404260b8d7e3f2aff95.png
-
    .. image:: media/module_7_View_the_latest_job_status_by_refreshing_the_page.png
       :alt: Fig. View the latest job status by refreshing the page
 
