@@ -1,6 +1,21 @@
 ***********************
-EnOS™ Batch Processing
+EnOS™ Offline Analytics
 ***********************
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Overview
+
+    datalake_analytics_overview
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Learn
+
+    data_source/datasource_overview
+    data_integration/di_overview
+    data_ide/dataide_overview
+    task_monitor/taskmonitor_overview
 
 
 .. toctree::
@@ -17,7 +32,7 @@ EnOS™ Batch Processing
 
 .. toctree::
    :maxdepth: 1
-   :caption: Batch processing
+   :caption: How-to's
 
    data_source/index
    data_integration/index
@@ -27,13 +42,10 @@ EnOS™ Batch Processing
 
 .. toctree::
    :maxdepth: 1
-   :caption: Related services
+   :caption: Reference
 
-   Data Analysis and Report <https://www.envisioniot.com/docs/analysis-report/en/latest/report_overview.html>
+   common_library
+   system_variables
 
-Downloads
-""""""""
-    pdf_ htmlzip_ epub_
-.. _pdf: https://www.envisioniot.com/projects/offline-data/downloads/pdf/latest/
-.. _htmlzip: https://www.envisioniot.com/projects/offline-data/downloads/htmlzip/latest/
-.. _epub: https://www.envisioniot.com/projects/offline-data/downloads/epub/latest/
+   
+

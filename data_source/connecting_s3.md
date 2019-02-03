@@ -4,11 +4,11 @@ This topic instructs how to configure the connection to an Amazon S3  data sourc
 
 
 ## About this task
-To retrieve data from an external Amazon S3 database for analysis, Create a data source configuration that specifies the cloud region where the database sits in AWS, the credentials to use to access the S3 database, and other information about the data source.
+To synchronize data from an external Amazon S3 database for analysis, Create a data source configuration that specifies the cloud region where the database sits in AWS, the credentials to use to access the S3 database, and other information about the data source.
 
 ## Procedure
 
-1. In the EnOS Console, click **Data Source** from the left navigation panel.
+1. In the EnOS Console, click **Data Connection** from the left navigation panel.
 
 2. In the **Data Source** panel, click **Add Data Source**.
 

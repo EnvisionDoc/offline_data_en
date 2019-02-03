@@ -3,12 +3,6 @@ Data Source
 
 .. toctree::
    :maxdepth: 1
-   :caption: Learn
-
-   datasource_overview
-
-.. toctree::
-   :maxdepth: 1
    :caption: How-to's
 
    connecting_ftp

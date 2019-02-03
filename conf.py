@@ -59,8 +59,8 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 # General information about the project.
-project = u'EnOS Batch Processing'
-copyright = u'2018, EnOS'
+project = u'EnOS Offline Analytics'
+copyright = u'2019, EnOS'
 author = u'Envision Digital'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -168,7 +168,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, u'EnOSDocumentationCenter.tex', u'EnOS Batch Processing',
+    (master_doc, u'EnOSDocumentationCenter.tex', u'EnOS Offline Analytics',
      u'Envision Digital', 'manual'),
 ]
 
@@ -178,7 +178,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, u'enosdocumentationcenter', u'EnOS Batch Processing',
+    (master_doc, u'enosdocumentationcenter', u'EnOS Offline Analytics',
      [author], 1)
 ]
 
@@ -189,7 +189,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'EnOSDocumentationCenter', 'EnOS Batch Processing',
+    (master_doc, 'EnOSDocumentationCenter', 'EnOS Offline Analytics',
      author, 'EnOSDocumentationCenter', 'One line description of project.',
      'Miscellaneous'),
 ]

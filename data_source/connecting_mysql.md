@@ -4,11 +4,11 @@ This topic instructs how to configure the connection to an SQL or MySQL Server d
 
 
 ## About this task
-To retrieve data from an external SQL or MySQL database for analysis, Create a data source configuration that specifies information about the data source and the JDBC connection to the source database.
+To synchronize data from an external SQL or MySQL database for analysis, Create a data source configuration that specifies information about the data source and the JDBC connection to the source database.
 
 ## Procedure
 
-1. In the EnOS Console, click **Data Source** from the left navigation panel.
+1. In the EnOS Console, click **Data Connection** from the left navigation panel.
 
 2. In the **Data Source** panel, click **Add Data Source**.
 

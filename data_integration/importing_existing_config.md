@@ -1,8 +1,8 @@
-# Creating by importing an existing configuration
+# Creating Workflow by Importing Existing Configuration
 
 If you have existing workflow configuration that you want to reuse for the new data integration workflow, import the configuration file.
 
-## Before you begin
+## Before You Begin
 
 You must have a workflow configuration file stored locally. For information about how to export an existing workflow as a configuration file, see [Exporting a workflow](../data_ide/operating_workflow#exporting-a-workflow).
 
@@ -26,7 +26,7 @@ You must have a workflow configuration file stored locally. For information abou
    - If you selected to create a periodic workflow in step 2, see [Creating a periodic synchronization workflow from scratch](creating_scratch_periodic).
    - If you selected to create a one-time workflow in step 2, see [Creating a one-time synchronization workflow from scratch](creating_scratch_onetime).
 
-## What to do next
+## What to Do Next
 
 Click **Pre-run** to trigger the workflow.
 

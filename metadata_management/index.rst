@@ -1,7 +1,7 @@
-Metadata Management
-=====================
+Metadata 
+========
 
 .. toctree::
    :maxdepth: 1
 
-   metadata_overview
+   querying_metadata

@@ -5,7 +5,7 @@ You can use parameters when you configure the data integration workflow.
 ## Available options for parameters
 You can specify constants, system variables, or custom variables for a parameter.
 
-For what system variables you can use, see [System variables](../data_ide/system_variables).
+For what system variables you can use, see [System variables](../system_variables).
 
 ## Procedure
 

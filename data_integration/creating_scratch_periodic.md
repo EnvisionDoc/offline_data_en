@@ -1,8 +1,8 @@
-# Creating a periodic workflow from scratch to synchronize data from external data sources to Hive
+# Synchronize Data from External Data Sources to Hive (Periodic Automatic Workflow)
 
-How to create a periodic data integration task from scratch.
+How to create an automatic data integration task that runs periodically from scratch.
 
-## Before you begin
+## Before You Begin
 
 You must have created the target Hive table to synchronize the data to. For more information, see [Creating a Hive table](https://www.envisioniot.com/docs/data-explorer/en/latest/creating_hivetable.html) in *Data Explorer*.
 
@@ -134,7 +134,7 @@ When parameters are used when you configure the data source and target, specify 
 
    You parameter setting will cause EnOS to synchronize all data from the directories as specified by the parameter values.
 
-   You can assign system variables as parameter values. For more information, see [Supported system variables](../data_ide/system_variables).
+   You can assign system variables as parameter values. For more information, see [Supported system variables](../system_variables).
 
 ## Step 7: Configure concurrency
 
@@ -147,7 +147,7 @@ The database endures a larger load when you set a larger concurrency number. Whe
 
 Preview the settings, edit when necessary, and click **Save** to save the synchronization configuration.
 
-## What to do next
+## What to Do Next
 
 Click **Pre-run** to trigger the workflow.
 

@@ -1,8 +1,8 @@
-# Creating a manual workflow from scratch to synchronize data from external data sources to Hive
+# Synchronize Data from External Data Sources to Hive (Manual Workflow)
 
 How to create an one-time data synchronization workflow from scratch.
 
-## Before you begin
+## Before You Begin
 
 You must have created the target Hive table to synchronize the data to. For more information, see [Creating a Hive table](https://www.envisioniot.com/docs/data-explorer/en/latest/creating_hivetable.html) in *Data Explorer*.
 
@@ -82,7 +82,7 @@ The only type supported now is Hive. Provide the following settings abut the tar
 
    - Column name: The system creates new partitions based on the values in this column. If the column is date for example, and the column values are `20180501` and `20180502`, then two partitions are created, each for one day.
    - Fixed value: If 2017-10-11 is entered for example, the data will be automatically synchronized to the `2017-10-11` partition of the target table.
-   - Placeholder: You can use system reserved or custom parameters, for example, the system variable `${cal_dt}`. For more information about the usage of system variable, see [System variables](../data_ide/system_variables).
+   - Placeholder: You can use system reserved or custom parameters, for example, the system variable `${cal_dt}`. For more information about the usage of system variable, see [System variables](../system_variables).
 
    .. image:: media/sql_target.png
       :alt: Figure: Preview data
@@ -132,7 +132,7 @@ When parameters are used when you configure the data source and target, specify 
 
   You parameter setting will cause EnOS to synchronize all data from the directories as specified by the parameter values.
 
-You can assign system variables as parameter values. For more information, see [Supported system variables](../data_ide/system_variables).
+You can assign system variables as parameter values. For more information, see [Supported system variables](../system_variables).
 
 ## Step 7: Configure concurrency
 
@@ -145,7 +145,7 @@ The database endures a larger load when you set a larger concurrency number. Whe
 
 Preview the settings, edit when necessary, and click **Save** to save the synchronization configuration.
 
-## What to do next
+## What to Do Next
 
 Click **Pre-run** to trigger the workflow.
 

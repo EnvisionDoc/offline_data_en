@@ -3,11 +3,11 @@
 This topic instructs how to configure the connection to an SFTP data source.
 
 ## About this task
-To retrieve data from an external SFTP data source, create a data source configuration that specifies information about the SFTP connection.
+To synchronize data from an external SFTP data source, create a data source configuration that specifies information about the SFTP connection.
 
 ## Procedure
 
-1. In the EnOS Console, click **Data Source** from the left navigation panel.
+1. In the EnOS Console, click **Data Connection** from the left navigation panel.
 
 2. In the **Data Source** panel, click **Add Data Source**.
 

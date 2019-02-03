@@ -1,4 +1,4 @@
-# Synchronize data in EnOS Hive to target database
+# Synchronize Data From EnOS Hive to Target Datastore
 
 You can synchronize the data in EnOS Hive to the target database for data analytics and report creation purpose.
 
@@ -7,7 +7,7 @@ EnOS supports to synchronize Hive data to the following databases:
 - External MySQL database
 - EnOS report DB
 
-## Before you begin
+## Before You Begin
 
 You must have created the target table before synchronizing:
 
@@ -42,7 +42,7 @@ To select and synchronize the data source to MySQL or EnOS report DB, follow the
 
    You can set the value of the partition by specifying:
    - Fixed value. For example, if you set the fixed value to `20180101`, data that contains `20180101` is automatically synchronized to target table.
-   - Placeholder. You can specify the system scheduling parameters, such as `${cal_dt}`, or customized parameters. For more information, see [Supported system variables](../data_ide/system_variables)
+   - Placeholder. You can specify the system scheduling parameters, such as `${cal_dt}`, or customized parameters. For more information, see [Supported system variables](../system_variables)
 
 4. (Optional) Click **Preview Data**. System displays 5 random data entries by default.
 
@@ -76,7 +76,7 @@ You can synchronize the Hive data either to an external MySQL database or EnOS r
 
   4. Click **Next**.
 
-## What to do next
+## What to Do Next
 
 For more information about workflow scheduling settings, parameter settings, field mapping configuration, and channel control, see:
 
