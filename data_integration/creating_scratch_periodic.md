@@ -36,7 +36,7 @@ When you select to synchronize from a SQL, MySQL, or Oracle database, provide th
 
    .. image:: media/sql_source.png
       :alt: Figure: Preview data
-      :width: 700px
+      
 
 5. Click **Next**.
 
@@ -78,7 +78,7 @@ The only type supported now is Hive. Provide the following settings abut the tar
 
    .. image:: media/sql_target.png
       :alt: Figure: Preview data
-      :width: 700px  
+        
 
 4. Specify whether to overwrite the existing data in the target table, or append the data behind the existing data records.
 
@@ -92,7 +92,7 @@ In this step, you'll map the source fields to the target fields.
 
    .. image:: media/sql_mapping.png
       :alt: Figure: Mapping fields
-      :width: 400px
+      
 
 2. When you finish mapping each field, click **Next**.
 

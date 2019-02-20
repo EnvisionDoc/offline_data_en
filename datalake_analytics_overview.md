@@ -43,6 +43,6 @@ Provides interactive drag-and-drop user interface that lowers the barrier of acq
 
 ## Next Steps
 
-Learn how to quickly provision a typical smart IoT device on EnOS Cloud and start to sending telemetries between the device and the cloud:
+Learn how to use the Offline Analytics service for batch data processing.
 
-- [Getting Started With offline Analytics](gettingstarted)
+- [Getting Started With Offline Analytics](gettingstarted)

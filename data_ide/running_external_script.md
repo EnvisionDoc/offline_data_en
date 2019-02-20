@@ -63,7 +63,7 @@ Upload the `.zip` file as a resource of EnOS in the following procedure:
 
    .. image:: media/resource.png
       :alt: Figure: New version of resource
-      :width: 400px
+      
 
 ## Step 2. Create a workflow with a task that references the resource.
 
@@ -78,7 +78,7 @@ Upload the `.zip` file as a resource of EnOS in the following procedure:
 
    .. image:: media/new_workflow.png
       :alt: Figure: New workflow
-      :width: 400px
+      
 
 3. From the **Component** panel, drag the **SHELL** type of task node into the workflow panel.
 
@@ -86,7 +86,7 @@ Upload the `.zip` file as a resource of EnOS in the following procedure:
 
    .. image:: media/new_task.png
       :alt: Figure: New task
-      :width: 750px
+      
 
 5. Double click the task node that you just created and provide the following settings about the task:
 
@@ -120,7 +120,7 @@ Upload the `.zip` file as a resource of EnOS in the following procedure:
 
    .. image:: media/task.png
       :alt: Figure: Task configuration
-      :width: 700px
+      
 
 7. Click **Save**. Click **Back to workflow panel** and click **Release** to publish the workflow.
 
@@ -136,12 +136,12 @@ After you pre-run the workflow, a workflow instance is generated. You can then t
 
    .. image:: media/instance.png
       :alt: Figure: Instance list
-      :width: 700px
+      
 
 3. Click the name of instance from the table and double-click the task from the panel. You can then view the log by clicking the **Scheduling Log** tab.
 
    .. image:: media/log.png
       :alt: Figure: Log
-      :width: 700px
+      
 
 <!--end-->

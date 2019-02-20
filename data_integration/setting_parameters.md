@@ -35,6 +35,6 @@ Where `test_list` is a parameter. You can then assign values for the parameter a
 
 .. image:: media/parameter_example_URL.png
    :alt: Figure: Example parameter settings
-   :width: 780px
+   
 
 <!--end-->

@@ -23,19 +23,19 @@ To view a manual workflow, do the following steps:
 
    .. image:: media/workflow_attributes.png
       :alt: Figure: Task attributes in the workflow monitor
-      :width: 400px
+      
 
    - Task contents: what's run in the task. What's shown in the Task Contents tab varies according to the task type. The content of a data integration task might look something like this:
 
    .. image:: media/workflow_taskcontents.png
       :alt: Figure: Task contents in the workflow monitor
-      :width: 400px
+      
 
    While an SHELL task content would be something like this:
 
    .. image:: media/workflow_taskcontents2.png
       :alt: Figure: Task contents in the workflow monitor
-      :width: 400px
+      
 
 ## Pre-running a manual workflow
 

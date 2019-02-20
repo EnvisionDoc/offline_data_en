@@ -99,12 +99,12 @@ This task aims to create the hive forms used to store the data of the meters and
 
 The task aims to synchronize the master data of the meters to the hive table that you created in Step 1 and create a corresponding hive table so as to obtain the descriptions of the electrical meters, as described below:
 
-1. Click **Data IDE > Task Designer**, double click **SYNC_MDM** version **V0.1.2**. The Instructions of the SDK are shown as in the following figure:
+1. Click **Data IDE > Data Development**, double click **SYNC_MDM** version **V0.1.1**. The Instructions of the SDK are shown as in the following figure:
 
    .. image:: media/module_6_Instructions_on_the_SDK_for_Main_Data_Synchronization.png
       :alt: Fig. Instructions on the SDK for master data Synchronization
 
-2. Review the instructions and click **Use this program**, enter the name of your task (change the suffix "demo" to your own task name, ensure that the name is not identical with other tasks), select **/Workflow/Practice**, as described below:
+2. Review the instructions and click **Use the program**, enter the name of your task (change the suffix "demo" to your own task name, ensure that the name is not identical with other tasks), select **/Workflow/Practice**, as described below:
 
    .. image:: media/module_6_select_WorkflowPractice.png
 
@@ -144,12 +144,12 @@ The forms required to be synchronized to the report databases include:
 
 .. note:: You'll need to replace the database names with your own.
 
-1. Enter **Data IDE > Task Designer**, double click "SYNC_REPORT_STRUCTURE" V0.1.1, where the roles and application of the SDK are detailed, as described below:
+1. Enter **Data IDE > Data Development**, double click **SYNC_REPORT_STRUCTURE** version **V0.1.1**, where the roles and application of the SDK are detailed, as described below:
 
    .. image:: media/module_6_Synchronization_of_report_database_structures.png
       :alt: Fig. Synchronization of report database structures
 
-2. Click **Use this program**, input the name of your program (the suffix "demo" may be changed to your program name, which shall not be identical with that of other programs), select **/Workflow/Practice**, as described below:
+2. Click **Use the program**, input the name of your program (the suffix "demo" may be changed to your program name, which shall not be identical with that of other programs), select **/Workflow/Practice**, as described below:
 
    .. image:: media/module_6_select_WorkflowPracticeapplymethod.png
 

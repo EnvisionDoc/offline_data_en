@@ -6,7 +6,6 @@ The major use cases of data integration are to help data developers synchronize 
 
 .. image:: ../media/di_flow.png
    :alt: Figure: Data integration flow
-   :width: 600px
 
 A data integration workflow is a specific type of workflow. The essence of a data integration workflow is a workflow with a single data-integration type of task.
 
@@ -25,5 +24,3 @@ Synchronization of full-load of data usually happens at the initial stage of dat
 ### Incremental Data Synchronization
 
 Synchronization of incremental data usually happens after the initial stage, when you only want to synchronize the new or updated data periodically. In this scenario, you usually select the incremental data to synchronize through a `where` clause when you configure the synchronization workflow. To achieve this scenario, see [Creating a periodic synchronization workflow](creating_scratch_periodic).
-
-
