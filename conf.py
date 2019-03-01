@@ -60,7 +60,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'EnOS Offline Analytics'
-copyright = u'2019, EnOS'
+copyright = u'2018, EnOS'
 author = u'Envision Digital'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -169,7 +169,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, u'EnOSDocumentationCenter.tex', u'EnOS Offline Analytics',
-     u'Envision Digital', 'manual'),
+     u'Envision Digital', u'manual'),
 ]
 
 
@@ -220,4 +220,3 @@ epub_exclude_files = ['search.html']
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'https://docs.python.org/': None}
-
