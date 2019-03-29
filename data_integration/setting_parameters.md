@@ -25,7 +25,7 @@ The value can be a single value, or an array of values.
 
 ## Example: using parameter in URL
 
-For example, you may use parameter when you set the URL to your S3 data source:
+For example, you may use parameter when you set the URL to your S3 data connection:
 
   `s3://history/log_solar_dt_change_inverter/${test_list}.each_value`
 
@@ -35,6 +35,6 @@ Where `test_list` is a parameter. You can then assign values for the parameter a
 
 .. image:: media/parameter_example_URL.png
    :alt: Figure: Example parameter settings
-   
+
 
 <!--end-->

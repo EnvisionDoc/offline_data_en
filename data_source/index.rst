@@ -1,5 +1,5 @@
-Data Source
-============
+Data Connection
+=================
 
 .. toctree::
    :maxdepth: 1

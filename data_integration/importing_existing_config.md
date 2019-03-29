@@ -30,6 +30,6 @@ You must have a workflow configuration file stored locally. For information abou
 
 Click **Pre-run** to trigger the workflow.
 
-After a workflow is run, an instance is generated. You can then trace the details about the instance through the task monitor. For more information, see [Task monitor](../task_monitor/index).
+After a workflow is run, an instance is generated. You can then trace the details about the instance through the workflow operation. For more information, see [Workflow Operation](../task_monitor/index).
 
-After the data is synchronized from the data source, you can schedule other processing tasks against the data. For more information, see [Data IDE](../data_ide/dataide_overview).
+After the data is synchronized from the data connection, you can schedule other processing tasks against the data. For more information, see [Data IDE](../data_ide/dataide_overview).

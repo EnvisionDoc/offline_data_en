@@ -8,7 +8,7 @@ You can pre-run a single task. You can use this function to pinpoint issues with
 
 2. Click **OK**, and the workflow instance ID will be displayed in the upper right corner of the page.
 
-3. You can then view the instance information in the task monitor.
+3. You can then view the instance information in the workflow operation.
 
 .. note:: - If a time before the current system time is selected as the trigger time, the workflow will be executed immediately to generate a running instance (viewable through the workflow monitor. When the workflow instance is running, the trigger time is regarded as the business time and is transmitted to the time parameter for business computing.
    - Only one instance for the same workflow is allowed to run at a time. If the pre-run instance conflicts with the current running instance, the pre-run instance will wait till the completion of the running instance.
@@ -21,7 +21,7 @@ You can pre-run a task and its downstream according to your needs. Note that the
 
 2. Click **OK**, and the workflow instance ID will be displayed in the upper right corner of the page.
 
-3. You can then view the instance information in the task monitor.
+3. You can then view the instance information in the workflow operation.
 
 
 ## Cloning a task

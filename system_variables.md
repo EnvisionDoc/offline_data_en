@@ -6,11 +6,11 @@ You can use variables in path and parameter settings, you can also use variables
 
 Before you start to use the service-related variables, note the following key concepts:
 
-**Triggering time**
+### Triggering time
 
 The time when a workflow is triggered. It can be the time when you manually trigger the workflow, or when the workflow is automatically triggered according to scheduling settings.
 
-**Business date**
+### Business date
 
 The date from which the data starts to be  processed by the workflow. Service date is generated based on the triggering time by deducting one day from the triggering time (because the batch job is performed against the data of yesterday by default). For example, when the triggering time is `2017-05-27 13:50:00`, and the scheduled cycle is one day. Then the business date is `2017-05-26`, meaning the data on `2017-05-26` will be processed at the triggering time of `2017-05-27 13:50:00`. With that said, if you want to process the data of the date 2018-03-01, you must set the triggering time to some time on 2018-03-02.
 

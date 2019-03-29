@@ -6,7 +6,7 @@ How to crate a resource and add new versions of the resource.
 
 The procedure to create a resource is as follows:
 
-1. Click **Data IDE > Resource Management** from the left navigation tree and click **Create Resource**.
+1. Click **Data IDE > Job Resource** from the left navigation tree and click **Create Resource**.
 
 2. In the **Create Resource** window, provide the basic settings about the resource.
 

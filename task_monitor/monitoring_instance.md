@@ -11,7 +11,7 @@ For a worflow instance, you can perform the following monitoring actions:
 
 To view an instance of a manual or periodic workflow, do the following steps:
 
-1. From the navigation panel, click **Task Monitor** > **Manual Instance** or **Task Monitor** > **Periodic Instance**. A table of all instances that are generated in the last 24 hours are shown.
+1. From the navigation panel, click **Workflow Operation** > **Manual Instance** or **Workflow Operation** > **Periodic Instance**. A table of all instances that are generated in the last 24 hours are shown.
 
 2. (Optional) In the search field above the table, enter the instance ID or name to filter the result shown in the table.
 

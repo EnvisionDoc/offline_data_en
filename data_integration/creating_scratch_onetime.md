@@ -1,4 +1,4 @@
-# Synchronize Data from External Data Sources to Hive (Manual Workflow)
+# Synchronize Data from External Data Connection to Hive (Manual Workflow)
 
 How to create an one-time data synchronization workflow from scratch.
 
@@ -20,13 +20,13 @@ You must have created the target Hive table to synchronize the data to. For more
 
 3. Click **OK**.
 
-## Step 2: Select the data source
+## Step 2: Select the data connection
 
 ### SQL, MySQL, or Oracle database
 
 When you select to synchronize from a SQL, MySQL, or Oracle database, provide the following settings:
 
-1. Select from the list of existing data source or create a new data source. For more information, see [Data source overview](../data_source/datasource_overview).
+1. Select from the list of existing data connection or create a new data connection. For more information, see [Data connection overview](../data_source/datasource_overview).
 
 2. Select which table to synchronize from the database.
 
@@ -40,17 +40,17 @@ When you select to synchronize from a SQL, MySQL, or Oracle database, provide th
 
    .. image:: media/sql_source.png
       :alt: Figure: Preview data
-      
+
 
 5. Click **Next**.
 
 ### Text-based data in FTP, SFTP, or S3
 
-When you select to synchronize from an FTP, SFTP, or S3 data source, EnOS transforms the text-based data into a two-dimension table according to your settings:
+When you select to synchronize from an FTP, SFTP, or S3 data connection, EnOS transforms the text-based data into a two-dimension table according to your settings:
 
-1. Select from the list of existing data source or create a new data source. For more information, see [Data source overview](../data_source/datasource_overview).
+1. Select from the list of existing data connection or create a new data connection. For more information, see [Data Connection overview](../data_source/datasource_overview).
 
-2. Specify the URL to the data source. When the directory contains multiple files, the data records are merged. In this case, ensure that all data in the same directory has the same columns.
+2. Specify the URL to the data connection. When the directory contains multiple files, the data records are merged. In this case, ensure that all data in the same directory has the same columns.
 
 3. Specify the column delimiter that is used in the text-based data file, such as tabulator, comma, semicolon, space or other delimiters.
 
@@ -64,7 +64,7 @@ When you select to synchronize from an FTP, SFTP, or S3 data source, EnOS transf
 
    .. image:: media/s3_source.png
       :alt: Figure: Specify source
-      
+
 
 8. (Optional) Click **Preview Data**.
 
@@ -86,7 +86,7 @@ The only type supported now is Hive. Provide the following settings abut the tar
 
    .. image:: media/sql_target.png
       :alt: Figure: Preview data
-      
+
 
 4. Specify whether to overwrite the existing data in the target table, or append the data behind the existing data records.
 
@@ -99,7 +99,7 @@ In this step, you'll map the source fields to the target fields.
 
    .. image:: media/sql_mapping.png
       :alt: Figure: Mapping fields
-      
+
 
 2. When you finish mapping each field, click **Next**.
 
@@ -118,11 +118,11 @@ In this step, you'll map the source fields to the target fields.
 
 ## Step 6: Specify parameters
 
-When parameters are used when you configure the data source and target, specify parameter values. You can specify constants, system variables, or custom variables for a parameter. The procedure is as follows:
+When parameters are used when you configure the data connection and target, specify parameter values. You can specify constants, system variables, or custom variables for a parameter. The procedure is as follows:
 
 1. Click **Parameter Settings** from the right edge of the configuration panel.
 
-2. For each parameter that you used, provide the values. For example, you may use parameter when you set the URL to your S3 data source:
+2. For each parameter that you used, provide the values. For example, you may use parameter when you set the URL to your S3 data connection:
 
   `s3://history/log_solar_dt_change_inverter/${test_list}.each_value`
 
@@ -149,6 +149,6 @@ Preview the settings, edit when necessary, and click **Save** to save the synchr
 
 Click **Pre-run** to trigger the workflow.
 
-After a workflow is run, an instance is generated. You can then trace the details about the instance through the task monitor. For more information, see [Task monitor](../task_monitor/monitoring_workflow_manual).
+After a workflow is run, an instance is generated. You can then trace the details about the instance through the workflow operation. For more information, see [Workflow Operation](../task_monitor/monitoring_workflow_manual).
 
-After the data is synchronized from the data source, you can schedule other processing tasks against the data. For more information, see [Data IDE](../data_ide/dataide_overview).
+After the data is synchronized from the data connection, you can schedule other processing tasks against the data. For more information, see [Data IDE](../data_ide/dataide_overview).

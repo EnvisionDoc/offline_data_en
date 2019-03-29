@@ -14,7 +14,7 @@ A workflow can be scheduled to run for one time only or periodically.
 ### Task
 
 A task is the fundamental element of the workflow. A task defines how to process the data. By running a task, the  _resource_ associated with the task is run. Data IDE function provides two types of tasks:
-- Data integration task: a data integration task will synchronize external data source into EnOS hive library. For more information, see [Data integration](../data_integration/index).
+- Data integration task: a data integration task will synchronize external data connection into EnOS hive library. For more information, see [Data integration](../data_integration/index).
 - SHELL task: a task that runs SHELL script.
 
 ### Reference
@@ -69,7 +69,7 @@ The Data IDE toolkit provides the following major functionalities:
 
 According to your business requirements, your can design a workflow that comprises multiple tasks, and each task performs certain actions on your data.
 
-### Resource Management
+### Job Resource
 
 You can register your scripts as resources and manage the version of the resources. The resources can then be referenced by tasks in a workflow.
 

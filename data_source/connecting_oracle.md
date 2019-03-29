@@ -1,41 +1,41 @@
-# Configuring an ORACLE data source
+# Configuring an ORACLE data connection
 
-This topic instructs how to configure the connection to a ORACLE data source.
+This topic instructs how to configure the connection to a ORACLE data connection.
 
 ## About this task
-To synchronize data from an ORACLE data source, create a data source configuration that specifies information about the ORACLE connection.
+To synchronize data from an ORACLE data connection, create a data connection configuration that specifies information about the ORACLE connection.
 
 ## Procedure
 
 1. In the EnOS Console, click **Data Connection** from the left navigation panel.
 
-2. In the **Data Source** panel, click **Add Data Source**.
+2. In the **Data Connection** panel, click **Add Data Connection**.
 
-3. In the **Data Source** window, provide the following settings:
+3. In the **Data Connection** window, provide the following settings:
 
-   - **Data source name**:  the name of the data source. the name of the data source. The name can be a combination of the following characters:
+   - **Data Connection name**:  the name of the data connection. the name of the data connection. The name can be a combination of the following characters:
      - Chinese characters
      - a through z
      - A through Z
      - 0 through 9
      - _ (underscore)  
-     The maximum length of the data source name is 50 characters.
-   - **Data source type**: ORACLE
+     The maximum length of the data connection name is 50 characters.
+   - **Data Connection type**: ORACLE
    - **Host name or IP address**: Enter the host name or IP address where the database is hosted.     
    - **Service Name or SID**: the Service name or the SID of the ORACLE.
    - **Port**: the port number. The default port is 1521.
    - **Username**: the user name to use to access the ORACLE.
    - **Password**: the password of the user name.
-   - **Data source description**: a description of the data source.
+   - **Data Connection description**: a description of the data connection.
 
 4. Click **OK** to save the configuration.
 
 ## Results
 
-After the connection is created, the data source item is shown in the **Data Source** table.
+After the connection is created, the data connection item is shown in the **Data Connection** table.
 
 ## What to do next
 
-When the connection is successfully established, EnOS retrieves the data from the external data source to the EnOS internal Hive database. You must create the Hive table to store the retrieved data. For more information, see [Creating Hive table](https://www.envisioniot.com/docs/data-explorer/en/latest/creating_hivetable.html).
+When the connection is successfully established, EnOS retrieves the data from the external data connection to the EnOS internal Hive database. You must create the Hive table to store the retrieved data. For more information, see [Creating Hive table](https://www.envisioniot.com/docs/data-explorer/en/latest/creating_hivetable.html).
 
-You can then configure a data integration workflow to synchronize data from the data source to the target table in EnOS. For more information, see [Data Integration](../data_integration/index).
+You can then configure a data integration workflow to synchronize data from the data connection to the target table in EnOS. For more information, see [Data Integration](../data_integration/index).

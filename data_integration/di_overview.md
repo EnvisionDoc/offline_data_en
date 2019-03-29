@@ -1,6 +1,6 @@
 # Data Integration
 
-The data integration function supports synchronizing data between extensive heterogeneous data sources.
+The data integration function supports synchronizing data between extensive heterogeneous data connections.
 
 The major use cases of data integration are to help data developers synchronize structured data from external source databases to the Hive Library in EnOS and from the EnOS Hive database to external target databases.
 
@@ -19,7 +19,7 @@ The typical scenarios of data integration are as follows.
 
 ### Full-load Data Synchronization
 
-Synchronization of full-load of data usually happens at the initial stage of data integration. In this scenario, you synchronize full-load of data from the data source at one-time. To achieve this scenario, see [Creating a one-time synchronization workflow](creating_scratch_onetime).
+Synchronization of full-load of data usually happens at the initial stage of data integration. In this scenario, you synchronize full-load of data from the data connection at one-time. To achieve this scenario, see [Creating a one-time synchronization workflow](creating_scratch_onetime).
 
 ### Incremental Data Synchronization
 

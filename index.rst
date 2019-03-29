@@ -1,22 +1,21 @@
-***********************
-EnOS™ Offline Analytics
-***********************
+EnOS Data Analytics
+========================
 
 .. toctree::
-    :maxdepth: 1
-    :caption: Overview
+   :maxdepth: 1
+   :caption: Overview
 
-    datalake_analytics_overview
+   datalake_analytics_overview
 
 .. toctree::
-    :maxdepth: 1
-    :caption: Learn
+   :maxdepth: 1
+   :caption: Learn
 
-    data_source/datasource_overview
-    data_integration/di_overview
-    data_ide/dataide_overview
-    task_monitor/taskmonitor_overview
-
+   data_source/datasource_overview
+   data_integration/di_overview
+   data_ide/dataide_overview
+   task_monitor/taskmonitor_overview
+   data_explorer/dataexplorer_overview
 
 .. toctree::
    :maxdepth: 1
@@ -38,6 +37,7 @@ EnOS™ Offline Analytics
    data_integration/index
    data_ide/index
    task_monitor/index
+   data_explorer/index
    metadata_management/index
 
 .. toctree::
@@ -46,6 +46,3 @@ EnOS™ Offline Analytics
 
    common_library
    system_variables
-
-   
-

@@ -11,7 +11,7 @@ For a manual worflow, you can perform the following monitoring actions:
 You can view general information about a workflow and the detailed information about each task that is run in the workflow.
 
 To view a manual workflow, do the following steps:
-1. From the navigation panel, click **Task Monitor** > **Manual Scheduling**. A table of all workflows that you have access to is shown in the right panel.
+1. From the navigation panel, click **Workflow Operation** > **Manual Scheduling**. A table of all workflows that you have access to is shown in the right panel.
 
 2. (Optional) In the search field above the table, enter the task ID or name to filter to result shown in the table.
 
@@ -23,19 +23,19 @@ To view a manual workflow, do the following steps:
 
    .. image:: media/workflow_attributes.png
       :alt: Figure: Task attributes in the workflow monitor
-      
+
 
    - Task contents: what's run in the task. What's shown in the Task Contents tab varies according to the task type. The content of a data integration task might look something like this:
 
    .. image:: media/workflow_taskcontents.png
       :alt: Figure: Task contents in the workflow monitor
-      
+
 
    While an SHELL task content would be something like this:
 
    .. image:: media/workflow_taskcontents2.png
       :alt: Figure: Task contents in the workflow monitor
-      
+
 
 ## Pre-running a manual workflow
 

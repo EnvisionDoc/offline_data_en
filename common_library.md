@@ -32,7 +32,7 @@ EnOS provides various built-in SDKs in its common library to help you access and
 
 The major procedure of using the built-in SDK is as follows:
 
-1. In **Data IDE** > **Task Designer**, browse the Common Library tree and locate the SDK that you want to use.
+1. In **Data IDE** > **Data Development**, browse the Common Library tree and locate the SDK that you want to use.
 
 2. Double-click the version of the script and review the details about the script.
 

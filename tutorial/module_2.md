@@ -1,4 +1,4 @@
-# Module 2: Develop periodical workflows with Task Designer
+# Module 2: Develop periodical workflows with Data Development
 
 The module aims to develop the tasks performed on daily basis, i.e., daily
 synchronization of the master data to the report databases, periodically fetching
@@ -19,7 +19,7 @@ The job aims to synchronize the master data periodically, as described below:
 
 ### Creating a periodical workflow
 
-Enter **Data IDE > Task Designer** and create a new workflow,
+Enter **Data IDE > Data Development** and create a new workflow,
 as described below: ( Please change to the job name of your own when performing
 the experiment):
 
@@ -157,7 +157,7 @@ upload the shell scripts:
 
 ### Creating a shell node and linking it to the resources
 
-Enter **Data IDE**> **Task Designer**, create a shell node and configure it:
+Enter **Data IDE**> **Data Development**, create a shell node and configure it:
 
 .. image:: media/module_7_Creating_a_shell_node_2.png
    :alt: Fig. Creating a shell node
@@ -403,7 +403,7 @@ This session of the experiment aims to enable you to learn pre-run the jobs
 manually, to observe their running statuses and view the relevant logs with the
 job monitoring functions.
 
-1. Select your workflow in **Data IDE Suite> Task Designer**, then click **Pre-run** .
+1. Select your workflow in **Data IDE > Data Development**, then click **Pre-run** .
 
 2. Find the example workflow you pre-ran just now in Data Operation and **Manual instance > Pre-run**, as described below:
 

@@ -13,7 +13,7 @@ For a period worflow, you can perform the following monitoring actions:
 You can view general information about a workflow and the detailed information about each task that is run in the workflow.
 
 To view a periodic workflow, do the following steps:
-1. From the navigation panel, click **Task Monitor** > **Periodic Scheduling**. A table of all workflows that you have access to is shown in the right panel.
+1. From the navigation panel, click **Workflow Operation** > **Periodic Scheduling**. A table of all workflows that you have access to is shown in the right panel.
 
 2. (Optional) In the search field above the table, enter the task ID or name to filter to result shown in the table.
 

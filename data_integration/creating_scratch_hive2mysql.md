@@ -11,7 +11,7 @@ EnOS supports to synchronize Hive data to the following databases:
 
 You must have created the target table before synchronizing:
 
-- If you synchronize the data to the external MySQL database, you must establish and verify the connection in **Data Source** and create a target table. For more information, see [Configuring an SQL or MySQL Server data source](../data_source/connecting_mysql)
+- If you synchronize the data to the external MySQL database, you must establish and verify the connection in **Data Connection** and create a target table. For more information, see [Configuring an SQL or MySQL Server data connection](../data_source/connecting_mysql)
 
 - If you synchronize the data to EnOS report DB, you must create a MySQL note in **Data Explorer** and create a target table. For more information, see [Getting started with Data Explorer](https://www.envisioniot.com/docs/data-explorer/en/latest/gettingstarted.html).
 
@@ -30,11 +30,11 @@ You must have created the target table before synchronizing:
 
 3. Click **OK**.
 
-## Step 2: Select Hive data source
+## Step 2: Select Hive data connection
 
-To select and synchronize the data source to MySQL or EnOS report DB, follow the steps below:  
+To select and synchronize the data connection to MySQL or EnOS report DB, follow the steps below:  
 
-1. In **Data Source Type**, select Hive.
+1. In **Data source Type**, select Hive.
 
 2. In **Source Table**, select the data table to be synchronized.
 
@@ -57,7 +57,7 @@ You can synchronize the Hive data either to an external MySQL database or EnOS r
 
   1. In **Target Source Type**, select MySQL.
 
-  2. In **Data Sources**, select target database that the data synchronized to.
+  2. In **Data Source**, select target database that the data synchronized to.
 
   3. In **Table Name**, select the target table that the data synchronized to.
 
@@ -70,7 +70,7 @@ You can synchronize the Hive data either to an external MySQL database or EnOS r
 
   1. In **Target Source Type**, select REPORTDB.
 
-  2. In **Data Sources**, select the target table that the data synchronized to.
+  2. In **Data Source**, select the target table that the data synchronized to.
 
   3. In **Data Insertion Rule**, select **Overwrite existing records** or **Insert after existing records** according to your requirement.
 

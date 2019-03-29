@@ -95,7 +95,7 @@ This task aims to create the hive forms used to store the data of the meters and
         - 678
         - 20180810
 
-## Step 2: Synchronizing the master data and creating table with Task Designer
+## Step 2: Synchronizing the master data and creating table with Data Development
 
 The task aims to synchronize the master data of the meters to the hive table that you created in Step 1 and create a corresponding hive table so as to obtain the descriptions of the electrical meters, as described below:
 
@@ -128,7 +128,7 @@ The task aims to synchronize the master data of the meters to the hive table tha
 
 4. Click **Release** to publish the workflow and click **Pre-run** to synchronize the master data.
 
-## Synchronize the form structures with Task Designer
+## Synchronize the form structures with Data Development
 
 The task aims to synchronize the form structures in the hive automatically to the
 relational databases for reports using the sdk on the platform for the purpose
