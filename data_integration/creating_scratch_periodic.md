@@ -4,7 +4,7 @@ How to create an automatic data integration task that runs periodically from scr
 
 ## Before You Begin
 
-You must have created the target Hive table to synchronize the data to. For more information, see [Creating a Hive table](https://www.envisioniot.com/docs/data-explorer/en/latest/creating_hivetable.html) in *Data Explorer*.
+You must have created the target Hive table to synchronize the data to. For more information, see [Creating a Hive table](/docs/offline-data/en/latest/data_explorer/creating_hivetable.html) in *Data Explorer*.
 
 ## Step 1: Create an data integration workflow
 
@@ -74,7 +74,7 @@ The only type supported now is Hive. Provide the following settings abut the tar
 
    - Column name: The system creates new partitions based on the values in this column. If the column is date for example, and the column values are `20180501` and `20180502`, then two partitions are created, each for one day.
    - Fixed value: If 2017-10-11 is entered for example, the data will be automatically synchronized to the `2017-10-11` partition of the target table.
-   - Placeholder: You can use system reserved or custom parameters, for example, the system variable `${cal_dt}`. For more information about the usage of system variable, see [System variables](../data_ide/system_variables).
+   - Placeholder: You can use system reserved or custom parameters, for example, the system variable `${cal_dt}`. For more information about the usage of system variable, see [System variables](../system_variables).
 
    .. image:: media/sql_target.png
       :alt: Figure: Preview data

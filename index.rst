@@ -14,7 +14,6 @@ EnOS Data Analytics
    data_source/datasource_overview
    data_integration/di_overview
    data_ide/dataide_overview
-   task_monitor/taskmonitor_overview
    data_explorer/dataexplorer_overview
 
 .. toctree::

@@ -2,6 +2,12 @@ Data Connection
 =================
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Learn
+
+   datasource_overview
+
+.. toctree::
    :maxdepth: 1
    :caption: How-to's
 
@@ -10,3 +16,4 @@ Data Connection
    connecting_oracle
    connecting_s3
    connecting_sftp
+   connecting_blob

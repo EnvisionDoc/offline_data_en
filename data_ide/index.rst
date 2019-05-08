@@ -3,6 +3,13 @@ Data IDE
 
 .. toctree::
    :maxdepth: 1
+   :caption: Learn
+
+   dataide_overview
+   scenarios
+
+.. toctree::
+   :maxdepth: 1
    :caption: How-To's
 
    creating_resource
@@ -14,3 +21,11 @@ Data IDE
    operating_task
    setting_parameters
    running_external_script
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Reference
+
+   ../common_library
+   ../system_variables
+

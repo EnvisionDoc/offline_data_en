@@ -1,6 +1,6 @@
-# Creating a hive table
+# Creating a Hive table
 
-This topic instructs how to create a hive table through Data Explorer.
+This topic instructs how to create a Hive table through Data Explorer.
 
 
 ## About this task

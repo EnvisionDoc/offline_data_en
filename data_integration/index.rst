@@ -3,6 +3,13 @@ Data Integration
 
 .. toctree::
    :maxdepth: 1
+   :caption: Learn
+
+   di_overview
+   scenarios
+
+.. toctree::
+   :maxdepth: 1
    :caption: How-to's
 
    creating_scratch_onetime

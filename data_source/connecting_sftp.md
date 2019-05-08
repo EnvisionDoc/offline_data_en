@@ -9,23 +9,21 @@ To synchronize data from an external SFTP data connection, create a data connect
 
 1. In the EnOS Console, click **Data Connection** from the left navigation panel.
 
-2. In the **Data Connection** panel, click **Add Data Connection**.
+2. In the **Data Connection** panel, click **Add Data Source**.
 
-3. In the **Data Connection** window, provide the following settings:
+3. In the **Data Sources** window, provide the following settings:
 
-   - **Data Connection name**:  The name of the data connection. the name of the data connection. The name can be a combination of the following characters:
-     - Chinese characters
+   - **Data source**: Name of the data source. The maximum length of the data source name is 50 characters. The name can be a combination of the following characters:
      - a through z
      - A through Z
      - 0 through 9
-     - _ (underscore)  
-     The maximum length of the data connection name is 50 characters.
-   - **Data Connection type**: SFTP
-   - **IP address**: The IP address of the SFTP server.
+     - _ (underscore) 
+   - **Data source type**: SFTP
+   - **IP Address**: The IP address of the SFTP server.
    - **Port**: The port number to use for connection. The default port number is 22.
    - **Username**: the user name to use to access the SFTP server.
    - **Password**: the password of the user name.
-   - **Data Connection description**: a description of the data connection.
+   - **Data Source Description**: a description of the data connection.
 
 4. Click **OK** to save the configuration.
 
@@ -35,6 +33,6 @@ After the connection is created, the data connection item is shown in the **Data
 
 ## What to do next
 
-When the connection is successfully established, EnOS retrieves the data from the external data connection to the EnOS internal Hive database. You must create the Hive table to store the retrieved data. For more information, see [Creating Hive table](https://www.envisioniot.com/docs/data-explorer/en/latest/creating_hivetable.html).
+When the connection is successfully established, EnOS retrieves the data from the external data connection to the EnOS internal Hive database. You must create the Hive table to store the retrieved data. For more information, see [Creating a Hive table](/docs/offline-data/en/dev/data_explorer/creating_hivetable.html).
 
 You can then configure a data integration workflow to synchronize data from the data connection to the target table in EnOS. For more information, see [Data Integration](../data_integration/index).
