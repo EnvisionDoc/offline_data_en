@@ -52,14 +52,14 @@ The following table explains the system variables by using `2017-05-27 13:50:00`
      - + Using triggering time as the basis, indicates n+1 days before today.
        + Using business date as the basis, indicates n days before today.
      - YYYY-MM-DD
-     - 2017-05-26 (taking n=1 as example)
-     - 2017-05-25 (taking n=1 as example)
+     - 2017-05-26
+     - 2017-05-25
    * - ${cal_dt8-n}
      - + Using triggering time as the basis, indicates n+1 days before today.
        + Using business date as the basis, indicates n days before today.
      - YYYYMMDD
-     - 2017-05-26 (taking n=1 as example)
-     - 20170525 (taking n=1 as example)
+     - 2017-05-26
+     - 20170525
    * - ${ncal_dt}
      - + Using triggering time as the basis, indicates today。
        + Using business date as the basis, indicates today+1.
