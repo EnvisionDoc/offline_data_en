@@ -127,6 +127,16 @@ The following table explains the system variables by using `2017-05-27 13:50:00`
      - YYYY-MM-DD
      - 2017-05-26
      - 2017-04-26
+   * - ${hcal_dt8}
+     - Using business date and time as the basis, move 1 hour backward and export the current date.
+     - YYYYMMDD
+     - 2017-05-26 00:30:00
+     - 20170525
+   * - ${cal_hr}
+     - Using business date and time as the basis, move 1 hour backward and export the current hour-level number.
+     - HH
+     - 2017-05-26 00:30:00
+     - 23
 
 ## Time related variables
 

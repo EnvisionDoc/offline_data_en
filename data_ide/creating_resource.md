@@ -1,4 +1,4 @@
-# Creating a resource
+# Creating a Resource
 
 How to crate a resource and add new versions of the resource.
 
@@ -27,11 +27,11 @@ The procedure to create a resource is as follows:
 
 6. Repeat Step 4 to 5 to add more versions for the resource.
 
-## What to do next
+## What to Do Next
 
 You can then invoke the scripts packaged in the resource through a SHELL-type of task in a workflow.
 
-## Reference information
+## Reference Information
 
-- [Creating a one-time workflow from scratch](creating_workflow_onetime)
-- [Creating a periodic workflow from scratch](creating_workflow_periodic)
+- [Creating a One-time Workflow from Scratch](creating_workflow_onetime)
+- [Creating a Periodic Workflow from Scratch](creating_workflow_periodic)

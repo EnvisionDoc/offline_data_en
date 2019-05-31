@@ -1,4 +1,4 @@
-# Getting started with Data Explorer
+# Getting Started with Data Explorer
 
 A typical flow to use Data Explorer to explorer data is as follows:
 

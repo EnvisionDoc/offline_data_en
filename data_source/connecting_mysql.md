@@ -1,9 +1,9 @@
-# Configuring an SQL or MySQL Server data connection
+# Configuring an SQL or MySQL Server Data Connection
 
 This topic instructs how to configure the connection to an SQL or MySQL Server data connection.
 
 
-## About this task
+## About This Task
 To synchronize data from an external SQL or MySQL database for analysis, Create a data connection configuration that specifies information about the data connection and the JDBC connection to the source database.
 
 ## Procedure
@@ -35,7 +35,7 @@ To synchronize data from an external SQL or MySQL database for analysis, Create 
 
 After the connection is created, the data connection item is shown in the **Data Connection** table.
 
-## What to do next
+## What to Do Next
 
 When the connection is successfully established, EnOS retrieves the data from the external data connection to the EnOS internal Hive database. You must create the Hive table to store the retrieved data. For more information, see [Creating Hive table](/docs/offline-data/en/dev/data_explorer/creating_hivetable.html).
 

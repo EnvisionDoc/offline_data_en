@@ -1,8 +1,8 @@
-# Creating a one-time workflow from scratch
+# Creating a One-time Workflow from Scratch
 
 How to create a one-time workflow that is run when you trigger manually.
 
-## Before you begin
+## Before You Begin
 
 Ensure that you've registered the codes and scripts to run against the data as resources. For more information, see [Creating a resource](creating_resource).
 
@@ -85,7 +85,7 @@ Repeat 1 to 8 to add more task nodes as you need.
 When parameters are used when you configure the data connection and target, specify parameter values. For more information, see [Setting parameters](setting_parameters).
 
 
-## What to do next
+## What to Do Next
 
 Click **Pre-run** to test the result of the workflow.
 

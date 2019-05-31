@@ -1,4 +1,4 @@
-# Supported interpreters
+# Supported Interpreters
 
 ## `%hive`
 

@@ -1,4 +1,4 @@
-# Monitoring manual workflow instances
+# Monitoring Manual Workflow Instances
 
 For a manual worflow, you can perform the following monitoring actions:
 - Viewing the workflow instance
@@ -6,7 +6,7 @@ For a manual worflow, you can perform the following monitoring actions:
 - Pre-running a selected task in the workflow
 - Pre-running a selected task and the subsequent tasks of the task
 
-## Viewing a manual workflow
+## Viewing a Manual Workflow
 
 You can view general information about a workflow and the detailed information about each task that is run in the workflow.
 
@@ -37,11 +37,11 @@ To view a manual workflow, do the following steps:
       :alt: Figure: Task contents in the workflow monitor
 
 
-## Pre-running a manual workflow
+## Pre-running a Manual Workflow
 
 To manually trigger a workflow, click **Pre-run** from the **Operations** column of the workflow and set the triggering time.
 
-## Pre-running a task
+## Pre-running a Task
 
 To manually trigger a task within the manual workflow:
 

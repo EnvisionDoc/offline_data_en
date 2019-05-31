@@ -1,8 +1,8 @@
-# Using EnOS Data IDE to run external Python scripts
+# Using EnOS Data IDE to Run External Python Scripts
 
 EnOS provides the `external_service.sh` script to help you run your own scripts that are not built in EnOS. The sample code shows how to use the `external_service.sh` script with EnOS Data IDE to run your external Python scripts.
 
-## Before you begin
+## Before You Begin
 
 1. Clone the sample files from the GitHub repo <https://github.com/EnvisionBigdata/dataide_external_script> to your local file system.
 
@@ -13,7 +13,7 @@ EnOS provides the `external_service.sh` script to help you run your own scripts 
 4. Compress all files in the directory into a `.zip` file, for example, `external_service.zip`.
 
 
-## About the task
+## About the Task
 
 This task uses an example to instruct how to use the `external_service.sh` script to invoke the master script file [`example-conda.sh`](example-conda.sh).
 

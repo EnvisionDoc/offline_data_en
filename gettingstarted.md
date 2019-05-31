@@ -17,7 +17,7 @@ A typical flow to use EnOS to analyze your historical data is as follows:
    - If the data connection is external, you'll first need to set up connection to the source data. EnOS supports to synchronize data from MYSQL, SQL, Oracle, FTP, SFTP, and Amazon S3 data connection. For information about how to connect to a specified database, see [Data Connection](data_source/datasource_overview).
    - If the data you want to process and analyze is on EnOS, such as the device master data accumulated and stored on EnOS. You can skip this substep.
 
-2. Prepare the target Create a hive table hosted on EnOS to store the data synchronized from the data connection. For more information, see [Creating a hive table](https://www.envisioniot.com/docs/data-explorer/en/latest/creating_hivetable.html) in *Data Explorer*.
+2. Prepare the target Create a hive table hosted on EnOS to store the data synchronized from the data connection. For more information, see [Creating a hive table](data-explorer/creating_hivetable) in *Data Explorer*.
 
 ## Step 2: Synchronize the data from your data connection to EnOS
 
@@ -33,4 +33,4 @@ For more information, see [Data IDE](data_ide/dataide_overview).
 
 ## Step 4: (Optional) Explore the data
 
-Optionally, you can use the Data Explorer function to help you perform interactive data analytics and visualization before you start to use the data for further purposes such as dashboard and business intelligence. For more information, see [Data Explorer](https://www.envisioniot.com/docs/data-explorer/en/latest/dataexplorer_overview.html).
+Optionally, you can use the Data Explorer function to help you perform interactive data analytics and visualization before you start to use the data for further purposes such as dashboard and business intelligence. For more information, see [Data Explorer](data-explorer/dataexplorer_overview).

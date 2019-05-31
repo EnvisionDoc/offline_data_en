@@ -6,7 +6,6 @@ Data Integration
    :caption: Learn
 
    di_overview
-   scenarios
 
 .. toctree::
    :maxdepth: 1
@@ -15,5 +14,6 @@ Data Integration
    creating_scratch_onetime
    creating_scratch_periodic
    creating_scratch_hive2mysql
+   creating_scratch_blob2hdfs
    importing_existing_config
    setting_parameters

@@ -1,8 +1,8 @@
-# Setting parameters for a workflow or SHELL-type of task
+# Setting Parameters for a Workflow or SHELL-type of Task
 
 You can use parameters when you configure the workflow or task.
 
-## Available options for parameters
+## Available Options for Parameters
 You can specify constants, system variables, or custom variables for a parameter.
 
 For what system variables you can use, see [System variables](../system_variables).

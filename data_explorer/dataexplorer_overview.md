@@ -4,7 +4,7 @@ EnOS Data Explorer is designed to support flexible data analysis scenarios. It i
 
 Data Explorer helps developers, data scientists, and relevant user roles process data more efficiently without having to use complex command lines or caring about clustering implementation details.
 
-## Major benefits
+## Major Benefits
 
 - **Discovery & analytics**: Data Explorer supports multiple languages, you can easily write the queries or scripts to transform your data and extract insights.
 
@@ -12,7 +12,7 @@ Data Explorer helps developers, data scientists, and relevant user roles process
 
 .. image:: media/data_explorer_pic_1.png
 
-## Key concepts
+## Key Concepts
 
 - **Interpreter**: A gateway connecting specific back-end framework to run actual code. The EnOS Data Explorer supports various interpreters. For more information, see [Supported interpreters](interpreter).
 

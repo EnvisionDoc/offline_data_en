@@ -1,4 +1,4 @@
-# Monitoring periodic workflow instances
+# Monitoring Periodic Workflow Instances
 
 For a period worflow, you can perform the following monitoring actions:
 - Viewing the workflow instance
@@ -8,7 +8,7 @@ For a period worflow, you can perform the following monitoring actions:
 - Pausing a running workflow
 - Resuming a paused workflow
 
-## Viewing a periodic workflow
+## Viewing a Periodic Workflow
 
 You can view general information about a workflow and the detailed information about each task that is run in the workflow.
 
@@ -36,11 +36,11 @@ To view a periodic workflow, do the following steps:
    .. image:: media/workflow_taskcontents2.png
       :alt: Figure: Task contents in the workflow monitor
 
-## Pre-running a workflow
+## Pre-running a Workflow
 
 To manually trigger a workflow, click **Pre-run** from the **Operations** column of the workflow and set the triggering time.
 
-## Pre-running a task
+## Pre-running a Task
 
 To manually trigger a task within a workflow:
 
@@ -48,7 +48,7 @@ To manually trigger a task within a workflow:
 
 2. In the workflow panel, right-click the task and click **Pre-run** and set the triggering time.
 
-## Starting and pausing a workflow
+## Starting and Pausing a Workflow
 
 You can stop a workflow that is already started. In this case, the workflow will no longer run to generate an instance. To stop a workflow, click **Stop** from the **Operations** column of the workflow.
 

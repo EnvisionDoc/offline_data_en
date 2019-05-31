@@ -1,8 +1,8 @@
-# Configuring an SFTP data connection
+# Configuring an SFTP Data Connection
 
 This topic instructs how to configure the connection to an SFTP data connection.
 
-## About this task
+## About This Task
 To synchronize data from an external SFTP data connection, create a data connection configuration that specifies information about the SFTP connection.
 
 ## Procedure
@@ -17,7 +17,7 @@ To synchronize data from an external SFTP data connection, create a data connect
      - a through z
      - A through Z
      - 0 through 9
-     - _ (underscore) 
+     - _ (underscore)
    - **Data source type**: SFTP
    - **IP Address**: The IP address of the SFTP server.
    - **Port**: The port number to use for connection. The default port number is 22.
@@ -31,7 +31,7 @@ To synchronize data from an external SFTP data connection, create a data connect
 
 After the connection is created, the data connection item is shown in the **Data Connection** table.
 
-## What to do next
+## What to Do Next
 
 When the connection is successfully established, EnOS retrieves the data from the external data connection to the EnOS internal Hive database. You must create the Hive table to store the retrieved data. For more information, see [Creating a Hive table](/docs/offline-data/en/dev/data_explorer/creating_hivetable.html).
 

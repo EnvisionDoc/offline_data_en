@@ -1,10 +1,10 @@
-# Creating by importing an existing configuration
+# Creating a Workflow by Importing an Existing Configuration
 
 If you have existing workflow configuration that you want to reuse for the new workflow, import the configuration file.
 
-## Before you begin
+## Before You Begin
 
-You must have a workflow configuration file stored locally. For information about how to export an existing workflow as a configuration file, see [Exporting a workflow](operating_workflow#exporting-a-workflow).
+You must have a workflow configuration file stored locally. For information about how to export an existing workflow as a configuration file, see [Exporting a Workflow](operating_workflow#exporting-a-workflow).
 
 ## Procedure
 
@@ -25,6 +25,6 @@ You must have a workflow configuration file stored locally. For information abou
    - If the imported configure file defines a periodic workflow, see [Creating a periodic workflow from scratch](creating_workflow_periodic).
    - If the imported configure file defines a one-time workflow, see [Creating a manual workflow from scratch](creating_workflow_onetime).
 
-## What to do next
+## What to Do Next
 
 Pre-run the workflow to test the result of your configuration.

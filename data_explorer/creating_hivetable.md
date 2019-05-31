@@ -1,9 +1,9 @@
-# Creating a Hive table
+# Creating a Hive Table
 
 This topic instructs how to create a Hive table through Data Explorer.
 
 
-## About this task
+## About This Task
 The data retrived from external data sources needs to be stored as Hive tables to be consumed by other EnOS data processing functions. You'll need to create the Hive table by using the Data Explorer.
 
 ## Procedure
@@ -51,7 +51,7 @@ Run the query and you'll a result like this:
 
 .. image:: media/test_query.png
 
-## What to do next
+## What to Do Next
 
 If you are creating the Hive table to store data from external data source, you'll then need specify the table as a target and map columns from the data source to the target through the Data Integration function. For more information, see [Data integration](https://www.envisioniot.com/docs/offline-data/en/latest/data_integration/index.html) in *Batch Data Processing*.
 

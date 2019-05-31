@@ -1,8 +1,8 @@
-# Configuring an ORACLE data connection
+# Configuring an ORACLE Data Connection
 
 This topic instructs how to configure the connection to a ORACLE data connection.
 
-## About this task
+## About This Task
 To synchronize data from an ORACLE data connection, create a data connection configuration that specifies information about the ORACLE connection.
 
 ## Procedure
@@ -32,7 +32,7 @@ To synchronize data from an ORACLE data connection, create a data connection con
 
 After the connection is created, the data connection item is shown in the **Data Connection** table.
 
-## What to do next
+## What to Do Next
 
 When the connection is successfully established, EnOS retrieves the data from the external data connection to the EnOS internal Hive database. You must create the Hive table to store the retrieved data. For more information, see [Creating Hive table](/docs/offline-data/en/dev/data_explorer/creating_hivetable.html).
 

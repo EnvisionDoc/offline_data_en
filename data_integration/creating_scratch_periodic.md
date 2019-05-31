@@ -1,38 +1,39 @@
-# Synchronize Data from External Data Connections to Hive (Periodic Automatic Workflow)
+# Synchronizing Data from External Data Connections to Hive (Periodic Scheduling)
 
 How to create an automatic data integration task that runs periodically from scratch.
 
 ## Before You Begin
 
-You must have created the target Hive table to synchronize the data to. For more information, see [Creating a Hive table](/docs/offline-data/en/latest/data_explorer/creating_hivetable.html) in *Data Explorer*.
+You must have created the target Hive table to synchronize the data to. For more information, see [Creating a Hive Table](/docs/offline-data/en/latest/data_explorer/creating_hivetable.html) in *Data Explorer*.
 
-## Step 1: Create an data integration workflow
+## Step 1: Create a data integration task
 
-1. Click **Data Integration** from the left navigation tree and click **New Data Integration Workflow**.
+1. Click **Data Integration** from the left navigation tree and click **+** to create a data integration task.
 
-2. In the **New Data Integration Workflow** window, provide the basic settings about the workflow.
+2. In the **New Data Integration Task** window, complete the basic settings for the task.
 
-   - Mode: Select **Create** to create a workflow from scratch. If you select **Import from Configuration**, go to [Creating by importing an existing workflow configuration](importing_existing_config).
-   - Name: Enter the name of workflow.
-   - Type: Select **Periodic**.
-   - Description: Provide a descriptive information about the workflow.
-   - Select Directory: Select the directy to save the workflow.
+   - Mode: Select **Create** to create a task from scratch. If you select **Import task config**, go to [Creating a Task by Importing Existing Configuration](importing_existing_config).
+   - Name: Enter the name of the data integration task.
+   - Synchronization Type: Select **Data synchronization**.
+   - Scheduling Type: Select **Periodic scheduling**.
+   - Description: Provide descriptive information about the data integration task.
+   - Select Directory: Select the directory to save the task.
 
-3. Click **OK**.
+3. Click **OK** to create the data integration task.
 
 ## Step 2: Select the data connection
 
 ### SQL, MySQL, or Oracle database
 
-When you select to synchronize from a SQL, MySQL, or Oracle database, provide the following settings:
+When you select to synchronize from a SQL, MySQL, or Oracle database, complete the following settings:
 
-1. Select from the list of existing data connection or create a new data connection. For more information, see [Data Connection overview](../data_source/datasource_overview).
+1. Select from the list of existing data connection or create a new data connection. For more information, see [Data Connection](../data_source/datasource_overview).
 
 2. Select which table to synchronize from the database.
 
 3. (Optional) If you want to filter the data to be synchronized, provide the SQL query script.
 
-4. (Optional) Click **Preview Data**. You can then preview the resultant data to synchronize as shown in the following figure:
+4. (Optional) Click **Data Preview**. You can then preview the filtered data to synchronize as shown in the following figure:
 
    .. image:: media/sql_source.png
       :alt: Figure: Preview data
@@ -58,14 +59,14 @@ When you select to synchronize from an FTP, SFTP, or S3 data connection, EnOS tr
 
 7. Specify the header to add for the source table.
 
-8. (Optional) Click **Preview Data**.
+8. (Optional) Click **Data Preview**.
 
 9. Click **Next**.
 
 
 ## Step 3: Select the target table
 
-The only type supported now is Hive. Provide the following settings abut the target table.
+The only type supported now is Hive. Complete the following settings abut the target table.
 1. Select the target table.
 
 2. If the Hive table is partitioned, the partitions are automatically loaded.
@@ -86,9 +87,9 @@ The only type supported now is Hive. Provide the following settings abut the tar
 
 ## Step 4: Configure field mapping between source and target
 
-In this step, you'll map the source fields to the target fields.
+In this step, you will map the source fields to the target fields.
 
-1. For each field in the **Target Fields** column, click the source field from the **Source Fields** column to map the source with target.
+1. For each field in the **Target Field** column, click the source field from the **Source Field** column to map the source with the target.
 
    .. image:: media/sql_mapping.png
       :alt: Figure: Mapping fields
@@ -98,31 +99,31 @@ In this step, you'll map the source fields to the target fields.
 
 ## Step 5: Specify scheduling settings
 
-1. Click **Scheduling Settings** from the right edge of the configuration panel.
+1. Click **Scheduling Config** from the right edge of the configuration panel.
 
-2. Provide the basic settings:
+2. Complete the basic settings:
 
-   - **Owner**: Select the workflow owner from the list of users in the organization who have access to data integration. It is the workflow creator by default. As the creator, you cannot delete yourself. You can add othher owners, however, in the same organization.
+   - **Owner**: Select the task owner from the list of users in the organization who have access to data integration. It is the task creator by default. As the creator, you cannot delete yourself. You can add other owners, however, in the same organization.
    - **Description**: (Optional) Provide a description.
-   - **Alert Mode**: Select how to alert the workflow owner. Email is always selected.
-      - E-mail: an alert e-mail is sent to the owner when an instance meets the alert conditions.
+   - **Alert Mode**: Select how to alert the task owner. Email is always selected by default.
+      - Email: an alert email is sent to the owner when an instance meets the alert conditions.
       - SMS: A phone number must be verified during user registration for use of SMS alert. The SMS alert is sent to only the owner when an instance meets the alert conditions.
 
-3. Provide the scheduling settings:
+3. Complete the scheduling settings:
 
-   - **Activation Date**: Specify when the workflow starts to take effect.
-   - **Scheduling Cycle**: Specify how frequent to run the workflow. For example, you can specify to run the workflow on a daily basis. You can also select to use the CronTab expression.
-   - **Specific Time**: Based the cycle you select, specify the exact time in a cycle to run the workflow. For example, you can specify to run the workflow at 9:00 am everyday. If you selected to use the CronTab syntax, enter the 7-character CronTab expression. For example, the value `59 59 23 * * ? *` indicates that the task is to run at 23:59:59 every day. For more information about CronTab, see [http://cron.qqe2.com/](http://cron.qqe2.com/).
+   - **Activation Date**: Specify when the task starts to take effect.
+   - **Scheduling Cycle**: Specify how frequent to run the task. For example, you can specify to run the task on a daily basis. You can also select to use the CronTab expression.
+   - **Specific Time**: Based the cycle you select, specify the exact time in a cycle to run the task. For example, you can specify to run the task at 9:00 am everyday. If you selected to use the CronTab syntax, enter the 7-character CronTab expression. For example, the value `59 59 23 * * ? *` indicates that the task is to run at 23:59:59 every day. For more information about CronTab, see [http://cron.qqe2.com/](http://cron.qqe2.com/).
    - **Timeout**: Specify the timeout value.
    - **Retry Times**: Specify the number of reconnection attempts to try after timeout. After the number of retries are attempted, the task fails.
    - **Retry Interval**: Specify the interval between each reconnection attempt.
-   - **Allow Referenced**: Specify whether this workflow can be referenced by another workflow.
+   - **Allow Referenced**: Specify whether this task can be referenced by another task.
 
 ## Step 6: Specify parameters
 
 When parameters are used when you configure the data connection and target, specify parameter values. You can specify constants, system variables, or custom variables for a parameter. The procedure is as follows:
 
-1. Click **Parameter Settings** from the right edge of the configuration panel.
+1. Click **Parameter Config** from the right edge of the configuration panel.
 
 2. For each parameter that you used, provide the values. For example, you may use parameter when you set the URL to your S3 data connection:
 
@@ -134,7 +135,7 @@ When parameters are used when you configure the data connection and target, spec
 
    You parameter setting will cause EnOS to synchronize all data from the directories as specified by the parameter values.
 
-   You can assign system variables as parameter values. For more information, see [Supported system variables](../system_variables).
+   You can assign system variables as parameter values. For more information, see [Supported System Variables](../system_variables).
 
 ## Step 7: Configure concurrency
 
@@ -145,12 +146,12 @@ The database endures a larger load when you set a larger concurrency number. Whe
 
 ## Step 8: Review and save the task configuration
 
-Preview the settings, edit when necessary, and click **Save** to save the synchronization configuration.
+Preview the settings, edit when necessary, and click **Done** to save the synchronization configuration.
 
 ## What to Do Next
 
-Click **Pre-run** to trigger the workflow.
+Click **Pre-run** and select a triggering time to test running the data integration task.
 
-After a workflow is run, an instance is generated. You can then trace the details about the instance through the workflow operation. For more information, see [Workflow Operation](../task_monitor/monitoring_workflow_periodic).
+After a task is running, an instance will be generated. You can then trace the details about the instance through Workflow Operation. For more information, see [Workflow Operation](../task_monitor/monitoring_workflow_periodic).
 
 After the data is synchronized from the data connection, you can schedule other processing tasks against the data. For more information, see [Data IDE](../data_ide/dataide_overview).

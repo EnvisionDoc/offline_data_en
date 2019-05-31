@@ -1,9 +1,9 @@
-# Configuring an Azure BLOB data connection
+# Configuring an Azure BLOB Data Connection
 
 This topic instructs how to configure the connection to an Azure BLOB data connection.
 
 
-## About this task
+## About This Task
 To synchronize data from an external Azure BLOB database for analysis, create a data connection configuration that specifies the cloud region where the database sits in Azure, with the storage account and password to access the BLOB database, and other information about the data connection.
 
 ## Procedure
@@ -18,7 +18,7 @@ To synchronize data from an external Azure BLOB database for analysis, create a 
      - a through z
      - A through Z
      - 0 through 9
-     - _ (underscore) 
+     - _ (underscore)
    - **Data source type**: BLOB
    - **Region**: the cloud region of the BLOB database.
    - **Storage Account**: the storage account to access the BLOB database.
@@ -32,7 +32,7 @@ To synchronize data from an external Azure BLOB database for analysis, create a 
 
 After the connection is created, the data connection item is shown in the **Data Connection** table.
 
-## What to do next
+## What to Do Next
 
 When the connection is successfully established, EnOS retrieves the data from the external data source to the EnOS internal Hive database. You must create the Hive table to store the retrieved data. For more information, see [Creating Hive table](/docs/offline-data/en/dev/data_explorer/creating_hivetable.html) .
 
