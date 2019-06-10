@@ -34,7 +34,7 @@ After the connection is created, the data connection item is shown in the **Data
 
 ## What to Do Next
 
-When the connection is successfully established, EnOS retrieves the data from the external data source to the EnOS internal Hive database. You must create the Hive table to store the retrieved data. For more information, see [Creating Hive table](/docs/offline-data/en/dev/data_explorer/creating_hivetable.html) .
+When the connection is successfully established, EnOS retrieves the data from the external data source to the EnOS internal Hive database. You must create the Hive table to store the retrieved data. For more information, see [Creating Hive table](/docs/offline-data/en/latest/data_explorer/creating_hivetable.html) .
 
 <!--
 

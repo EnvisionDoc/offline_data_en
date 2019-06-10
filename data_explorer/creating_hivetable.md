@@ -4,7 +4,7 @@ This topic instructs how to create a Hive table through Data Explorer.
 
 
 ## About This Task
-The data retrived from external data sources needs to be stored as Hive tables to be consumed by other EnOS data processing functions. You'll need to create the Hive table by using the Data Explorer.
+The data integrated from external data sources needs to be stored as Hive tables to be consumed by other EnOS data processing functions. You will need to create the Hive table by using the Data Explorer.
 
 ## Procedure
 
@@ -34,26 +34,26 @@ The data retrived from external data sources needs to be stored as Hive tables t
    For more information about the commands, see [Apache Hive documentation on table creation](https://cwiki.apache.org/confluence/display/Hive/LanguageManual+DDL#LanguageManualDDL-CreateTable).
 
 
-4. Click the **Run this paragraph** icon |Run_this_paragraph| . You'll see your table created successfully as shown in the following screenshot:
+4. Click the **Run this paragraph** icon |Run_this_paragraph| . You will see your table created successfully as shown in the following screen capture:
 
    .. image:: media/create_hive.png
 
 
 ## Results
-A table is created, and you can run a query to test your result.
+A table is created, and you can run a query to test the result.
 
 ```
 %hive
 select * from dw_meter_1h_demo limit 2
 ```
 
-Run the query and you'll a result like this:
+Run the query and you will get a result like this:
 
 .. image:: media/test_query.png
 
 ## What to Do Next
 
-If you are creating the Hive table to store data from external data source, you'll then need specify the table as a target and map columns from the data source to the target through the Data Integration function. For more information, see [Data integration](https://www.envisioniot.com/docs/offline-data/en/latest/data_integration/index.html) in *Batch Data Processing*.
+If you are creating the Hive table to store data from external data source, you will then need to specify the table as a target and map columns from the data source to the target through Data Integration. For more information, see [Data integration](/docs/offline-data/en/latest/data_integration/index.html).
 
 .. |Enter_note| image:: media/enter_note.png
 
