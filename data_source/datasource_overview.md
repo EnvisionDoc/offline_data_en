@@ -6,13 +6,15 @@ EnOS allows you to synchronize data from your own data connection into the hive 
 
 EnOS supports the following data source types:
 
-- Text storage
+- Relational database
+  - MySQL
+  - ORACLE
+  - SQL Server
+
+- Text storage system
   - FTP
   - SFTP
-  - S3
 
-- Database
-  - MYSQL
-  - SQL Server
-  - ORACLE
+- Object storage system
+  - S3
   - BLOB

@@ -26,7 +26,8 @@ EnOS Data Analytics
    :maxdepth: 1
    :caption: Tutorial
 
-   tutorial/index
+   tutorial/integrating_external_data_sources/index
+   tutorial/visualizing_external_data_sources/index
 
 .. toctree::
    :maxdepth: 1

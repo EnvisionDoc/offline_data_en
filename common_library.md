@@ -12,7 +12,7 @@ EnOS provides various built-in SDKs in its common library to help you access and
    * - SYNC_HDFS_TO_S3
      - Synchronize data from a specified path in HDFS to a specified path in an S3 database.
    * - COLUMNS_TO_ROWS
-     - Converts row data of your HIVE table, where each row contains values of all data collecting points of a device at a time, into a table   where each row contains historical values of a single data collecting point.
+     - Converts row data of your HIVE table, where each row contains values of all data collecting points of a device at a time, into a table where each row contains historical values of a single data collecting point.
    * - SYNC_MDM
      - Synchronizes master data to HDFS.
    * - SYNC_REPORT_DB
@@ -21,6 +21,8 @@ EnOS provides various built-in SDKs in its common library to help you access and
      - Converts EnOS raw point data (each row contains historical values of a single data collecting point) to sql-like row data (each row contains values of all data collecting points of a device at a time).
    * - POWER_DATA_INTERPOLATION
      - Interpolates power data, especially for the missing data of production.
+   * - HivePartitionDroppedSDK
+     - Deletes both the meta data of specified Hive partition and the stored data.
    * - SYNC_REPORT_STRUCTURE
      - Transfers table structure from Hive database, to MySQL report database.
    * - SHORT_TERM_LOAD_FORECAST
