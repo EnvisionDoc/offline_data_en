@@ -1,4 +1,4 @@
-# Viewing Synchronized Data
+# Unit 5. Viewing Synchronized Data
 
 When the data synchronization task runs successfully, view the synchronized data in the Hive table.
 

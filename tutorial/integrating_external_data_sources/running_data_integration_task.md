@@ -1,4 +1,4 @@
-# Running the Data Integration Task
+# Unit 4. Running the Data Integration Task
 
 In this unit, start running the data integration task to synchronize data from the external MySQL database to EnOS Hive. 
 

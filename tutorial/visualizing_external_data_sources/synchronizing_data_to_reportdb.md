@@ -1,4 +1,4 @@
-# Synchronizing Data to the Report Database
+# Unit 2. Synchronizing Data to the Report Database
 
 In this unit, create a data integration task for synchronizing the employee data from Hive to the Report Database.
 

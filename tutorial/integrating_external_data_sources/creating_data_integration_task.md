@@ -1,4 +1,4 @@
-# Creating a Data Integration Task
+# Unit 3. Creating a Data Integration Task
 
 In this unit, create a data integration task for synchronizing the employee data from the external MySQL database to EnOS Hive.
 

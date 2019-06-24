@@ -1,4 +1,4 @@
-# Configuring Source Data Connection
+# Unit 1. Configuring Source Data Connection
 
 The first step of synchronizing data to EnOS Hive is to register the external data sources in EnOS by configuring a data connection.
 

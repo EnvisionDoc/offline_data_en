@@ -25,18 +25,18 @@ You have completed integrating external data sources to EnOS Hive table. For det
 
 This tutorial includes the following units:
 
-> [Creating a Target Table in Report Database](creating_reportdb_table)
+> [Unit 1. Creating a Target Table in Report Database](creating_reportdb_table)
 >
 > 10 minutes
 
-> [Synchronizing Data to the Report Database](synchronizing_data_to_reportdb)
+> [Unit 2. Synchronizing Data to the Report Database](synchronizing_data_to_reportdb)
 >
 > 20 minutes
 
-> [Creating Datasets](creating_datasets)
+> [Unit 3. Creating Datasets](creating_datasets)
 >
 > 20 minutes
 
-> [Generating a Data Report](generating_report)
+> [Unit 4. Generating a Data Report](generating_report)
 >
 > 20 minutes

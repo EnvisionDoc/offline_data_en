@@ -1,4 +1,4 @@
-# Creating a Target Table in Report Database
+# Unit 1. Creating a Target Table in Report Database
 
 The first step of processing and visualizing data is to create a target table in the EnOS Report Database. In this unit, create a table named *report* with the required columns defined.
 

@@ -1,4 +1,4 @@
-# Creating a Target Hive Table
+# Unit 2. Creating a Target Hive Table
 
 Before synchronizing data from external data sources, you need to create a target Hive table. In this unit, create a Hive table named *employee* with the required columns defined.
 

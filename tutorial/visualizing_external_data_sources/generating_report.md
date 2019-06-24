@@ -1,4 +1,4 @@
-# Generating a Data Report
+# Unit 4. Generating a Data Report
 
 With the dataset created and edited, you can now generate a data report. EnOS Data Report feature provides multiple charts for creating reports in a WYSIWYG way. In this tutorial, generate a cross table report for the employee information.
 

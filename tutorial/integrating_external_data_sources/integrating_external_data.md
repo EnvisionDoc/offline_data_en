@@ -26,22 +26,22 @@ You have data stored in an external MySQL database, which is ready to be integra
 
 This tutorial includes the following units:
 
-> [Configuring Source Data Connection](configuring_data_connection)
+> [Unit 1. Configuring Source Data Connection](configuring_data_connection)
 >
 > 10 minutes
 
-> [Creating a Target Hive Table](creating_hive_table)
+> [Unit 2. Creating a Target Hive Table](creating_hive_table)
 >
 > 20 minutes
 
-> [Creating a Data Integration Task](creating_data_integration_task)
+> [Unit 3. Creating a Data Integration Task](creating_data_integration_task)
 >
 > 20 minutes
 
-> [Running the Data Integration Task](running_data_integration_task)
+> [Unit 4. Running the Data Integration Task](running_data_integration_task)
 >
 > 20 minutes
 
-> [Viewing the Synchronized Data](viewing_synchronized_data)
+> [Unit 5. Viewing the Synchronized Data](viewing_synchronized_data)
 >
 > 5 minutes
