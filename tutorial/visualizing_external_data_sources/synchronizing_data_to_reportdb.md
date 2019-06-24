@@ -95,7 +95,7 @@ When the data synchronization task runs successfully, view the synchronized data
 
 1. In the EnOS Console, click **Data Explorer** from the left navigation panel.
 
-2. In the **Data Explorer** panel, find the **report** note that is created in [Unit 1](creating_reportdb_table), and click the **Enter note** icon |Enter_note| to open the notebook.
+2. In the **Data Explorer** panel, find the **report** note that is created in [Unit 1](creating_reportdb_table), and click the **Enter note** icon |enter_note| to open the notebook.
 
 3. In the notebook, enter the following command to view the synchronized data to the Hive table:
 
@@ -103,10 +103,16 @@ When the data synchronization task runs successfully, view the synchronized data
    select * from report limit 100
    ```
 
-4. Click the **Run this paragraph** icon |Run_this_paragraph|. You will see the employee data that has been synchronized to the Report Database table. See the following screen capture:
+4. Click the **Run this paragraph** icon |run|. You will see the employee data that has been synchronized to the Report Database table. See the following screen capture:
 
    .. image:: media/synchronized_data.png
 
 ## Next Unit
 
 [Creating Datasets](creating_datasets)
+
+.. |enter_note| image:: media/enter_note.png
+
+.. |run| image:: media/run.png
+
+<!--end-->
