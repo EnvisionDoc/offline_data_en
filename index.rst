@@ -18,7 +18,7 @@ EnOS Data Analytics
 
 .. toctree::
    :maxdepth: 1
-   :caption: Getting started
+   :caption: Getting Started
 
    gettingstarted
 
