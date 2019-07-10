@@ -53,7 +53,7 @@ Run the query and you will get a result like this:
 
 ## What to Do Next
 
-If you are creating the Hive table to store data from external data source, you will then need to specify the table as a target and map columns from the data source to the target through Data Integration. For more information, see [Data integration](/docs/offline-data/en/latest/data_integration/index.html).
+If you are creating the Hive table to store data from external data source, you will then need to specify the table as a target and map columns from the data source to the target through Data Integration. For more information, see [Data Integration](../data_integration/index.html).
 
 .. |Enter_note| image:: media/enter_note.png
 

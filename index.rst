@@ -38,7 +38,7 @@ EnOS Data Analytics
    data_ide/index
    task_monitor/index
    data_explorer/index
-   metadata_management/index
+   metadata_management/querying_metadata
 
 .. toctree::
    :maxdepth: 1
