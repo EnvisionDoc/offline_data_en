@@ -1,4 +1,4 @@
-# Querying Metadata
+# Metadata Explorer 
 
 Metadata Explorer provides a unified view of EnOS data warehouse metadata information. You can query the metadata of the Report DB tables and Hive tables. During development, data developers can centrally view the schema and attribute information of tables, thus assisting with the data development work.
 
