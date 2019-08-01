@@ -22,8 +22,8 @@ To synchronize data from an external SQL or MySQL database for analysis, create 
    - **Data source type**: MYSQL   
    - **Host Name or IP Address**: Enter the host name or IP address where the database is hosted.
    - **Database Name**: the name that uniquely identifies to the database to connect.
-   - **Port**: the port to access the database.  
-      EnOS uses the address, database name, and port to establish the JDBC connection from EnOS to the database.
+   - **Port**: the port to access the database.
+     EnOS uses the address, database name, and port to establish the JDBC connection from EnOS to the database.
    - **Username**: the user name to use to access the database.
    - **Password**: the password of the user name.
    - **Data Source Description**: a description of the data connection.
