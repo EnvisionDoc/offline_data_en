@@ -1,8 +1,8 @@
-# Creating a One-time Workflow from Scratch
+# Creating a one-time workflow from scratch
 
 How to create a one-time workflow that is run when you trigger manually.
 
-## Before You Begin
+## Before you begin
 
 Ensure that you've registered the codes and scripts to run against the data as resources. For more information, see [Creating a resource](creating_resource).
 
@@ -72,23 +72,23 @@ Repeat 1 to 8 to add more task nodes as you need.
 2. Provide the basic settings:
 
    - **Owner**: Select the workflow owner from the list of users in the organization who have access to data integration. It is the workflow creator by default. The following facting are true about the owner:
-      - As the creator, you cannot delete yourself.
-      - You can add other owners in the same organization.
-      - The same owner is not allowed to create another workflow with the same name.
+     - As the creator, you cannot delete yourself.
+     - You can add other owners in the same organization.
+     - The same owner is not allowed to create another workflow with the same name.
    - **Description**: (Optional) Provide a description.
    - **Alert Mode**: Select how to alert the workflow owner. Email is always selected.
-      - E-mail: an alert e-mail is sent to the owner when an instance meets the alert conditions. When the task fails, a copy of the alert is also sent to the affected downstream task owner, if there is.
-      - SMS: A phone number must be verified during user registration for use of SMS alert. The SMS alert is sent to only the owner when an instance meets the alert conditions.
+     - E-mail: an alert e-mail is sent to the owner when an instance meets the alert conditions. When the task fails, a copy of the alert is also sent to the affected downstream task owner, if there is.
+     - SMS: A phone number must be verified during user registration for use of SMS alert. The SMS alert is sent to only the owner when an instance meets the alert conditions.
 
 ## Step 6: Specify parameters
 
-When parameters are used when you configure the data connection and target, specify parameter values. For more information, see [Setting parameters](setting_parameters).
+When parameters are used when you configure the data source and target, specify parameter values. For more information, see [Setting parameters](setting_parameters).
 
 
-## What to Do Next
+## What to do next
 
 Click **Pre-run** to test the result of the workflow.
 
-After a workflow is run, an instance is generated. You can then trace the details about the instance through the workflow operation. For more information, see [Monitoring periodic workflows](../task_monitor/monitoring_workflow_manual).
+After a workflow is run, an instance is generated. You can then trace the details about the instance through the task monitor. For more information, see [Monitoring periodic workflows](../task_monitor/monitoring_workflow_manual).
 
-After the data is synchronized from the data connection, you can schedule other processing tasks against the data. For more information, see [Data IDE](../data_ide/dataide_overview).
+After the data is synchronized from the data source, you can schedule other processing tasks against the data. For more information, see [Data IDE](../data_ide/dataide_overview).

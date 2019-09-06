@@ -1,5 +1,7 @@
 Data IDE
-==========
+-------------------------------
+
+
 
 .. toctree::
    :maxdepth: 1
@@ -23,9 +25,8 @@ Data IDE
    running_external_script
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Reference
+  :maxdepth: 1
+  :caption: Reference
 
-   ../common_library
-   ../system_variables
-
+  common_library
+  system_variables

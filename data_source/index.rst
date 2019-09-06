@@ -1,5 +1,5 @@
-Data Connection
-=================
+Data Source
+-----------
 
 .. toctree::
    :maxdepth: 2
@@ -16,4 +16,3 @@ Data Connection
    connecting_oracle
    connecting_s3
    connecting_sftp
-   connecting_blob

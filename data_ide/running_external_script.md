@@ -1,8 +1,8 @@
-# Using EnOS Data IDE to Run External Python Scripts
+# Using EnOS Data IDE to run external Python scripts
 
 EnOS provides the `external_service.sh` script to help you run your own scripts that are not built in EnOS. The sample code shows how to use the `external_service.sh` script with EnOS Data IDE to run your external Python scripts.
 
-## Before You Begin
+## Before you begin
 
 1. Clone the sample files from the GitHub repo <https://github.com/EnvisionBigdata/dataide_external_script> to your local file system.
 
@@ -13,17 +13,18 @@ EnOS provides the `external_service.sh` script to help you run your own scripts 
 4. Compress all files in the directory into a `.zip` file, for example, `external_service.zip`.
 
 
-## About the Task
+## About the task
 
 This task uses an example to instruct how to use the `external_service.sh` script to invoke the master script file [`example-conda.sh`](example-conda.sh).
 
 The description about the sample code in this repository is as follows:
+
 - The invoked script file `example-conda.sh` is created from the original script file `example.sh` by adding the following commands to install the Python packages that are needed to run the referenced Python scripts.
 
-   ```
-   source ~/.bash_profile
-   envName=codeExample
-   if [[ `conda create -y -n $envName python=2.7` ]]; then
+  ```
+  source ~/.bash_profile
+  envName=codeExample
+  if [[ `conda create -y -n $envName python=2.7` ]]; then
      source activate $envName
      conda install -y pytz
      conda install -y pandas
@@ -32,11 +33,11 @@ The description about the sample code in this repository is as follows:
    fi
    source activate $envName
 
-   ...
-   ...
+  ...
+  ...
 
-   source deactivate
-   ```
+  source deactivate
+  ```
 
 - The files in the `inputFiles` directory are example input files, which contain non-standard data formats and structures, and therefore need restructuring and transformation.
 
@@ -50,68 +51,65 @@ The description about the sample code in this repository is as follows:
 
 Upload the `.zip` file as a resource of EnOS in the following procedure:
 
-1. In the EnOS Console, click **Data IDE > Job Resource** from the left navigation panel and click **Create Resource**.
+1. In the EnOS Console, click **Data IDE > Resource Management** from the left navigation panel and click **Create Resource**.
 
 2. In the **Create Resource** window, provide the basic settings about the resource.
 
    - Name: Enter the name of resource.
    - Description: Provide a descriptive information about the resource.
    - Select Directory: Select the directy to save the resource.
-	   Click **OK**.
+	 Click **OK**.
 
 3. Click **New version** and upload the `external_service.zip` file with settings as shown in the following figure:
 
    .. image:: media/resource.png
-      :alt: Figure: New version of resource
-
 
 ## Step 2. Create a workflow with a task that references the resource.
 
-1. In the EnOS Console, click **Data IDE > Data Development** from the left navigation panel and click **New Workflow**.
+1. In the EnOS Console, click **Data IDE > Task Designer** from the left navigation panel and click **New Workflow**.
 
-2. In the **New Workflow** window, provide the following settings about the workflow and click **OK**.
+2. In the **New Workflow** window, provide the following settings about the workflow and click **OK**
 
-   - **Mode**: Create.
-   - **Name**: external_script_1
-   - **Type**: Manual Scheduling
-   - Select Dir: the directory where you want to store the workflow.
+	 - **Mode**: Create.
+	 - **Name**: external_script_1
+	 - **Type**: Manual Scheduling
+	 - Select Dir: the directory where you want to store the workflow.
 
    .. image:: media/new_workflow.png
-      :alt: Figure: New workflow
-
 
 3. From the **Component** panel, drag the **SHELL** type of task node into the workflow panel.
 
 4. In the **New Task Node** window, provide name and description of the task. Click **Create**.
 
    .. image:: media/new_task.png
-      :alt: Figure: New task
-
 
 5. Double click the task node that you just created and provide the following settings about the task:
 
-   - **Command**: enter the following command:
+	 - **Command**: enter the following command:
 
-     ```
-	   sh external_service.sh ${service_url} ${instance_id} ${command}
-	   ```
+	 ```
+	 sh external_service.sh ${service_url} ${instance_id} ${command}
+	 ```
 
-     where, *service_url* and *command* are parameters that you'll define in the **Parameter Config** tab. *instance_id* is a system variable that indicates the identifier of the workflow instance.
+   where, *service_url* and *command* are parameters that you'll define in the **Parameter Config** tab. *instance_id* is a system variable that indicates the identifier of the workflow instance.
 
-   - Select the resource and resource version that you uploaded in Step 2.
+	 - Select the resource and resource version that you uploaded in Step 2.
 
 6. Click the **Parameter Config** tab from the right edge of the task configuration panel and provide the following settings:
 
-   ```
-	 service_url="http://<domain_name>/uploadservice"    
-	 command="python example-conda.sh"  
-	 ```
+	```
+	service_url="http://<domain_name>/uploadservice"    
+	command="python example-conda.sh"  
+	```
 
    Where `domain_name` varies with the cloud region and instance:
+
    - For public cloud instances:
+
      - China: dataimp-cn1.eniot.io
      - Europe: dataimp-eu1.eniot.io
      - US: dataimp-us1.eniot.io
+
    - For private cloud instances, obtain your dedicated domain name from your Envision project manager or support representative.
 
    .. note:: You'll need to edit the value of `command` with the name of your master script file.
@@ -119,8 +117,6 @@ Upload the `.zip` file as a resource of EnOS in the following procedure:
    The following figure shows the task configuration in this example.
 
    .. image:: media/task.png
-      :alt: Figure: Task configuration
-
 
 7. Click **Save**. Click **Back to workflow panel** and click **Release** to publish the workflow.
 
@@ -128,20 +124,16 @@ Upload the `.zip` file as a resource of EnOS in the following procedure:
 
 ## Step 3. Verify the results   
 
-After you pre-run the workflow, a workflow instance is generated. You can then trace the details about the instance through the workflow operation:
+After you pre-run the workflow, a workflow instance is generated. You can then trace the details about the instance through the task monitor:
 
-1. In the EnOS Console, click **Workflow Operation** from the left navigation panel.
+1. In the EnOS Console, click **Task Monitor** from the left navigation panel.
 
 2. Click **Manual instance** and locate the instance through the name of the workflow. The workflow instance is shown as in the following figure:
 
    .. image:: media/instance.png
-      :alt: Figure: Instance list
-
 
 3. Click the name of instance from the table and double-click the task from the panel. You can then view the log by clicking the **Scheduling Log** tab.
 
    .. image:: media/log.png
-      :alt: Figure: Log
-
 
 <!--end-->

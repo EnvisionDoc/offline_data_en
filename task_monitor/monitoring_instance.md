@@ -1,4 +1,4 @@
-# Monitoring Workflow Instances
+# Monitoring workflow instances
 
 For a worflow instance, you can perform the following monitoring actions:
 
@@ -7,11 +7,11 @@ For a worflow instance, you can perform the following monitoring actions:
 - Stopping the instance
 
 
-## Viewing Details and Logs of the Instance
+## Viewing details and logs of the instance
 
 To view an instance of a manual or periodic workflow, do the following steps:
 
-1. From the navigation panel, click **Workflow Operation** > **Manual Instance** or **Workflow Operation** > **Periodic Instance**. A table of all instances that are generated in the last 24 hours are shown.
+1. From the navigation panel, click **Task Monitor** > **Manual Instance** or **Task Monitor** > **Periodic Instance**. A table of all instances that are generated in the last 24 hours are shown.
 
 2. (Optional) In the search field above the table, enter the instance ID or name to filter the result shown in the table.
 
@@ -23,11 +23,11 @@ To view an instance of a manual or periodic workflow, do the following steps:
    - Scheduling Log: the log of the instance, and you can download the log for analysis.
    - Task contents: what's run in the task. What's shown in the Task Contents tab varies according to the task type.
 
-## Re-running an Instance
+## Re-running an instance
 
 When the status of the instance is **success**, **failed**, **canceled** or **skipped**, it can be re-run. In this case, the current task flow instance and its downstream nodes are re-run.
 
-## Stopping an Instance
+## Stopping an instance
 
 When the status of the instance is **initializing**, **running** or **failed**. you can click **Stop Running** to immediately stop running the current instance. However, instances already submitted for batch data processing can not be stopped.
 

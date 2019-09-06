@@ -1,11 +1,11 @@
-# Setting Parameters for a Workflow or SHELL-type of Task
+# Setting parameters for a workflow or SHELL-type of task
 
 You can use parameters when you configure the workflow or task.
 
-## Available Options for Parameters
+## Available options for parameters
 You can specify constants, system variables, or custom variables for a parameter.
 
-For what system variables you can use, see [System variables](../system_variables).
+For what system variables you can use, see [System variables](system_variables).
 
 ## Procedure
 
@@ -15,10 +15,10 @@ The procedure is as follows:
 
 2. For each parameter that you used, provide the value in the **key=value** format. When you have multiple parameters to define, separate each parameter with an **Enter**.
 
-```
-key1=value1
-key2=value2
-```
+   ```
+   key1=value1
+   key2=value2
+   ```
 
 The value can be a single value, or an array of values.
 <!--Vivian: @weiwei, please list the syntax how to set value array-->
@@ -47,6 +47,5 @@ time_zone=Asia/Shanghai
 ```
 
 .. image:: media/parameter_example_SHELL.png
-   :alt: Figure: Example parameter settings
 
 <!--end-->

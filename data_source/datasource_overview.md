@@ -1,20 +1,18 @@
-# Data Connection
+# Data source overview
 
-EnOS allows you to synchronize data from your own data connection into the hive data store in EnOS cloud and from the EnOS hive data store to your own data stores. You can manage your data stores that exchange data with EnOS cloud through data connection.
+EnOS allows you to retrieve data from third party data sources for data processing and analysis.
 
-## Supported Data Source Types
+## Supported data sources
 
-EnOS supports the following data source types:
+EnOS supports the following types of data sources:
 
-- Relational database
-  - MySQL
-  - ORACLE
-  - SQL Server
-
-- Text storage system
+- Text storage
   - FTP
   - SFTP
-
-- Object storage system
   - S3
-  - BLOB
+
+- Database
+  - MYSQL
+  - SQL Server
+  - ORACLE
+  - Hive
