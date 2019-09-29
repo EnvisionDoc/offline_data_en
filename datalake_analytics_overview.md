@@ -38,7 +38,7 @@ Based on the open-source Apache Zeppelin project, EnOS Offline Analytics Service
 
 **EnOS Report**
 
-Provides interactive drag-and-drop user interface that lowers the barrier of acquiring, processing, and analyzing data and help you build data analysis reports rapidly and avoid duplicate efforts in front-end development. [Learn more >>](https://www.envisioniot.com/docs/analysis-report/en/latest/report_overview.html)
+Provides interactive drag-and-drop user interface that lowers the barrier of acquiring, processing, and analyzing data and help you build data analysis reports rapidly and avoid duplicate efforts in front-end development. [Learn more >>](/docs/analysis-report/en/2.0.8/report_overview.html)
 
 
 ## Next Steps
