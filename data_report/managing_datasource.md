@@ -6,23 +6,23 @@ On EnOS<sup>TM</sup> IoT platform, a Report DB is created by default for organiz
 
 1. Add data sources.
 
-   Log in the EnOS Console and select **Data Connection** from the left navigation panel. Click the **Add Data Source** button to complete adding data sources. For information about supported data source types and how to configure data source connection, see [Data Connection](/docs/offline-data/en/2.0.9/data_source/datasource_overview.html).
+   Log in the EnOS Console and select **Data Connection** from the left navigation panel. Click the **Add Data Source** button to complete adding data sources. For information about supported data source types and how to configure data source connection, see [Data Connection](/docs/offline-data/en/latest/data_source/datasource_overview.html).
 
 2. Create target tables.
 
-   Select **Data Explorer** from the left navigation panel and click the **New note** button to create target tables. For details, see [Creating a Hive Table](/docs/offline-data/en/2.0.9/data_explorer/creating_hivetable.html). If target tables already exist, you can skip this step.
+   Select **Data Explorer** from the left navigation panel and click the **New note** button to create target tables. For details, see [Creating a Hive Table](/docs/offline-data/en/latest/data_explorer/creating_hivetable.html). If target tables already exist, you can skip this step.
 
 3. Create data integration tasks.
 
-   Select **Data Integration** from the left navigation panel and click **New data integration task** and complete the configuration of the task flow. Based on your business needs, you can use data filters to synchronize partial data from the data sources. For details, see [Data Integration](/docs/offline-data/en/2.0.9/data_integration/index.html).
+   Select **Data Integration** from the left navigation panel and click **New data integration task** and complete the configuration of the task flow. Based on your business needs, you can use data filters to synchronize partial data from the data sources. For details, see [Data Integration](/docs/offline-data/en/latest/data_integration/index.html).
 
 4. (Optional) Create data development tasks.
 
-   If the data ETL development logic is complex, you can create data development tasks through **Data IDE** > **Data Development** > **New Workflow**. For details about workflow configuration, see [Data IDE](/docs/offline-data/en/2.0.9/data_ide/index.html).
+   If the data ETL development logic is complex, you can create data development tasks through **Data IDE** > **Data Development** > **New Workflow**. For details about workflow configuration, see [Data IDE](/docs/offline-data/en/latest/data_ide/index.html).
 
 5. Run and monitor the tasks.
 
-   After the data development task is created, click the **Pre-run** button and specify the triggering time for the task. Then, select **Workflow Operation** from the left navigation to view the running status of the workflow. For details, see [Workflow Operation](/docs/offline-data/en/2.0.9/task_monitor/index.html).
+   After the data development task is created, click the **Pre-run** button and specify the triggering time for the task. Then, select **Workflow Operation** from the left navigation to view the running status of the workflow. For details, see [Workflow Operation](/docs/offline-data/en/latest/task_monitor/index.html).
 
 6. Check data synchronization results.
 

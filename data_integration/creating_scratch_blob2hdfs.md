@@ -9,7 +9,7 @@ EnOS supports synchronizing file from the following external database:
 
 ## Before You Begin
 
-You must have created data connection for the external database, and the external database has the files to be synchronized. For more information, see [Data Connection](/docs/offline-data/en/2.0.9/data_source/datasource_overview.html).
+You must have created data connection for the external database, and the external database has the files to be synchronized. For more information, see [Data Connection](/docs/offline-data/en/latest/data_source/datasource_overview.html).
 
 
 ## Step 1: Create a data integration task
@@ -65,4 +65,4 @@ Click **Pre-run** and select a triggering time to test running the data integrat
 
 An instance will be generated after the data integration task is running. You can then trace the details about the instance through Workflow Operation. For more information, see [Workflow Operation](../task_monitor/monitoring_workflow_manual).
 
-After files are synchronized from the source databases, you can schedule other processing tasks against the data or files. For more information, see [Data IDE](/docs/offline-data/en/2.0.9/data_ide/index.html).
+After files are synchronized from the source databases, you can schedule other processing tasks against the data or files. For more information, see [Data IDE](/docs/offline-data/en/latest/data_ide/index.html).
