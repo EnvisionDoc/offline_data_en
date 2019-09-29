@@ -1,37 +1,42 @@
 # Creating a Hive Table
 
-This topic instructs how to create a Hive table through Data Explorer.
+This topic instructs how to create a Hive table using Zeppelin Notebook.
 
 
 ## About This Task
-The data integrated from external data sources needs to be stored as Hive tables to be consumed by other EnOS data processing functions. You will need to create the Hive table by using the Data Explorer.
+The data integrated from external data sources needs to be stored as Hive tables to be consumed by other EnOS data processing functions. You will need to create a Hive table with Zeppelin Notebook.
 
 ## Procedure
 
-1. In the EnOS Console, click **Data Explorer** from the left navigation panel.
+1. In the EnOS Console, click **Data Explorer** from the left navigation panel and open the Zeppelin Notebook.
 
-2. In the **Data Explorer** panel, import or create a note.
+2. Import or create a note.
 
-   - If you already have a note created with table creation script included, click **Import Note**.
-   - If you want to create a note, click **New Note**.
+   - If you already have a note created with table creation script included, click **Import note**.
+   - If you want to create a note, click **Create new note**.
 
-3. If you chose to create a note in step 2, enter the URL of the note and select **hive** as the note type. For example, if you entered `yourname/hive/tablename` as the URL, a hive table with the name `tablename` is created under the `yourname/hive` directory.
+3. If you chose to create a note in step 2, enter a name for the note and select **hive** as the default interpreter. For example, if you entered `yourname/hive/tablename` as the note name, a hive table with the name `tablename` is created under the `yourname/hive` directory.
 
-3. Click the **Enter note** icon |Enter_note| from the directory tree. In the notebook, enter the commands to create the table. For example,
+4. In the note, enter the commands to create the hive table. For example,
 
    ```
-   create table if not exists dpdw_dim_site_full(
-	    site_id string,
-	    site_name string,
-	    capacity string,
-	    equipment_amount string,
-	    air_denity string,
-	    area string,
-	    state_name string
-   ) comment 'wind domain dimension table'
+   %hive
+   
+   use db_name;
+   
+   CREATE TABLE IF NOT EXISTS employee(
+      serial_id string,
+      birthday string,
+      first_name string,
+      last_name string,
+      gender string,
+      onboard_date string)
+      PARTITIONED BY (yyyymmdd string)
+      STORED AS ORC;
+      comment 'table for employee info';
    ```
 
-   For more information about the commands, see [Apache Hive documentation on table creation](https://cwiki.apache.org/confluence/display/Hive/LanguageManual+DDL#LanguageManualDDL-CreateTable).
+   In the above example, replace `db_name` with the database name in the upper right corner of the Zeppelin Notebook page. For more information about the commands, see [Apache Hive documentation on table creation](https://cwiki.apache.org/confluence/display/Hive/LanguageManual+DDL#LanguageManualDDL-CreateTable).
 
 
 4. Click the **Run this paragraph** icon |Run_this_paragraph| . You will see your table created successfully as shown in the following screen capture:
@@ -40,11 +45,11 @@ The data integrated from external data sources needs to be stored as Hive tables
 
 
 ## Results
-A table is created, and you can run a query to test the result.
+A hive table is created, and you can run a query to test the result.
 
 ```
 %hive
-select * from dw_meter_1h_demo limit 2
+select * from exployee limit 100
 ```
 
 Run the query and you will get a result like this:
@@ -54,8 +59,6 @@ Run the query and you will get a result like this:
 ## What to Do Next
 
 If you are creating the Hive table to store data from external data source, you will then need to specify the table as a target and map columns from the data source to the target through Data Integration. For more information, see [Data Integration](../data_integration/index.html).
-
-.. |Enter_note| image:: media/enter_note.png
 
 .. |Run_this_paragraph| image:: media/run.png
 

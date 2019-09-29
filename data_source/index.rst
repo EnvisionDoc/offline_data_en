@@ -2,7 +2,7 @@ Data Connection
 =================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Learn
 
    datasource_overview
@@ -17,3 +17,4 @@ Data Connection
    connecting_s3
    connecting_sftp
    connecting_blob
+   connecting_gitlab

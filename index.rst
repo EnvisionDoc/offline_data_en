@@ -7,14 +7,6 @@ EnOS Data Analytics
 
    datalake_analytics_overview
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Learn
-
-   data_source/datasource_overview
-   data_integration/di_overview
-   data_ide/dataide_overview
-   data_explorer/dataexplorer_overview
 
 .. toctree::
    :maxdepth: 1
@@ -22,12 +14,6 @@ EnOS Data Analytics
 
    gettingstarted
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Tutorial
-
-   tutorial/integrating_external_data_sources/index
-   tutorial/visualizing_external_data_sources/index
 
 .. toctree::
    :maxdepth: 1
@@ -39,6 +25,16 @@ EnOS Data Analytics
    task_monitor/index
    data_explorer/index
    metadata_management/querying_metadata
+   data_report/index
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Tutorial
+
+   tutorial/integrating_external_data_sources/index
+   tutorial/visualizing_external_data_sources/index
+
 
 .. toctree::
    :maxdepth: 1

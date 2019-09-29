@@ -24,9 +24,11 @@ To synchronize data from an ORACLE data connection, create a data connection con
    - **Port**: the port number. The default port is 1521.
    - **Username**: the user name to use to access the ORACLE.
    - **Password**: the password of the user name.
-   - **Data Source Description**: a description of the data connection.
+   - **Data Source Description**: Enter description of the data connection.
 
-4. Click **OK** to save the configuration.
+4. Click **Test** to test the data source connection.
+
+5. Click **OK** to save the configuration.
 
 ## Results
 
@@ -34,6 +36,6 @@ After the connection is created, the data connection item is shown in the **Data
 
 ## What to Do Next
 
-When the connection is successfully established, EnOS retrieves the data from the external data connection to the EnOS internal Hive database. You must create the Hive table to store the retrieved data. For more information, see [Creating Hive table](/docs/offline-data/en/latest/data_explorer/creating_hivetable.html).
+When the connection is successfully established, EnOS retrieves the data from the external data connection to the EnOS internal Hive database. You must create the Hive table to store the retrieved data. For more information, see [Creating Hive table](/docs/offline-data/en/2.0.9/data_explorer/creating_hivetable.html).
 
 You can then configure a data integration workflow to synchronize data from the data connection to the target table in EnOS. For more information, see [Data Integration](../data_integration/index).

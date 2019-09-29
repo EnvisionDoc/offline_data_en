@@ -17,3 +17,10 @@ Data Integration
    creating_scratch_blob2hdfs
    importing_existing_config
    setting_parameters
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Reference
+
+   ../system_variables
