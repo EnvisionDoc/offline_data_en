@@ -1,4 +1,4 @@
-# Data Integration
+# Data Integration Overview
 
 The data integration function supports synchronizing data between extensive heterogeneous data connections.
 

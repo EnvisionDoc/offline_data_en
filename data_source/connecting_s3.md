@@ -23,9 +23,11 @@ To synchronize data from an external Amazon S3 database for analysis, Create a d
    - **Region**: the cloud region of the S3 database.
    - **Access Key ID**: the access key ID of the S3 database.
    - **Secret access key**: the access key to use to sign the requests sent to the S3 database.
-   - **Data Source Description**: a description of the data connection.
+   - **Data Source Description**: Enter description of the data connection.
 
-4. Click **OK** to save the configuration.
+4. Click **Test** to test the data source connection.
+
+5. Click **OK** to save the configuration.
 
 
 ## Results
@@ -34,6 +36,6 @@ After the connection is created, the data connection item is shown in the **Data
 
 ## What to Do Next
 
-When the connection is successfully established, EnOS retrieves the data from the external data connection to the EnOS internal Hive database. You must create the Hive table to store the retrieved data. For more information, see [Creating a Hive table](/docs/offline-data/en/latest/data_explorer/creating_hivetable.html) .
+When the connection is successfully established, EnOS retrieves the data from the external data connection to the EnOS internal Hive database. You must create the Hive table to store the retrieved data. For more information, see [Creating a Hive table](/docs/offline-data/en/2.0.9/data_explorer/creating_hivetable.html) .
 
 You can then configure a data integration workflow to synchronize data from the connection to the target table in EnOS. For more information, see [Data Integration](../data_integration/index).

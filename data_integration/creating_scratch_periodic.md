@@ -4,7 +4,7 @@ How to create an automatic data integration task that runs periodically from scr
 
 ## Before You Begin
 
-You must have created the target Hive table to synchronize the data to. For more information, see [Creating a Hive Table](/docs/offline-data/en/latest/data_explorer/creating_hivetable.html) in *Data Explorer*.
+You must have created the target Hive table to synchronize the data to. For more information, see [Creating a Hive Table](/docs/offline-data/en/2.0.9/data_explorer/creating_hivetable.html) in *Data Explorer*.
 
 ## Step 1: Create a data integration task
 
