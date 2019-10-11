@@ -1,17 +1,14 @@
 # Data Integration Overview
 
-The data integration function supports synchronizing data between extensive heterogeneous data connections.
+The data integration function supports synchronizing data between extensive heterogeneous data connections, helping data developers with the following tasks:
 
-The major use cases of data integration are to help data developers synchronize structured data from external source databases to the Hive Library in EnOS and from the EnOS Hive database to external target databases.
+- Synchronizing data: Synchronizing structured data from external source databases to the Hive Library in EnOS and from the EnOS Hive database to external target databases.
+- Synchronizing files: Synchronizing files from external source databases to EnOS HDFS file storage (currently supporting Azure Blob data source).
 
 .. image:: ../media/di_flow.png
    :alt: Figure: Data integration flow
 
 A data integration workflow is a specific type of workflow. The essence of a data integration workflow is a workflow with a single data-integration type of task.
-
-The data integration function only supports synchronization of structured data, that is data which can be abstracted as two-dimensional tables.
-
-Unstructured data such as MP3 is not supported by data integration. However, you can schedule SHELL-type of tasks in a workflow to synchronize the unstructured data. For information about unstructured data synchronization, see [Data IDE](../data_ide/dataide_overview).
 
 ## Usage Scenarios
 
